@@ -1,0 +1,12 @@
+:root {
+    --global--font-size: 1.6rem;
+    --global--font-weight: 400;
+    --global--line-height: 2;
+
+    --clr-txt: #656565;
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-theme1: #5052a3;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
