@@ -1,12 +1,17 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import "./PageHome.css"
+import LandingSpot from './partials/LandingSpot'
 
 function PageHome() {
+    
     return (
-        <main className='page-home'>
+        <div className='page-home'>
             <Header />
-        </main>
+
+            <main className='page-home-content'>
+                <LandingSpot />
+            </main>
+        </div>
     )
 }
 

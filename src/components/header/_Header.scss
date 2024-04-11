@@ -1,0 +1,135 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.logo-container {
+    height: 9rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+.navigation-container {
+    flex: auto;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--clr-black);
+
+    .main-content {
+        display: none;
+        gap: 5.2rem;
+        justify-content: flex-end;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+
+        .number:hover {
+            color: var(--clr-theme1);
+        }
+
+        .language-btn {
+            text-decoration: underline;
+            text-decoration-thickness: 0.2rem;
+            text-underline-offset: 0.5rem;
+            padding: 0 0.8rem;
+            border-radius: 0.5rem;
+            transition: all 0.5s ease-in-out 0.3ms;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .language-btn:hover {
+            background-color: var(--clr-theme1);
+            text-decoration: none;
+            color: var(--clr-white);
+        }
+    }
+
+    .main-content.no-show {
+        opacity: 1;
+        display: flex;
+    }
+
+    .secondary-content {
+        display: flex;
+        gap: 6rem;
+        opacity: 0;
+        display: none;
+        transition: all 0.3s ease-in-out 0.3s;
+
+        a:not(:nth-of-type(3)):hover {
+            color: var(--clr-theme1);
+        }
+
+        a:nth-of-type(3) {
+            color: var(--clr-white);
+            background-color: var(--clr-theme1);
+            padding: .5rem 2.4rem;
+            border-radius: 0.5rem;
+        }
+    }
+    .secondary-content.show {
+        display: flex;
+        justify-content: flex-end;
+        opacity: 1;
+    }
+}
+
+.hamburger-btn {
+    display: flex;
+    gap: 0.35rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #efefef;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 5.2rem;
+    overflow: hidden;
+
+    .bar {
+        background-color: black;
+        height: 0.2rem;
+        width: 100%;
+        border-radius: 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+        .bar1 {
+            width: 40%;
+        }
+        .bar3 {
+            width: 80%;
+        }
+    }
+
+    &.show {
+        position: relative;
+
+        .bar {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: center;
+            transition: transform 0.3s ease-in-out;
+            width: 70%;
+        }
+        .bar1 {
+            transform: translateX(-50%) rotate(45deg);
+        }
+        .bar2 {
+            transform: translateX(-50%) translate(-2.5rem); /* Ajustement pour centrer, puis translation pour cacher */
+            opacity: 0;
+        }
+        .bar3 {
+            transform: translateX(-50%) rotate(-45deg);
+        }
+    }
+}

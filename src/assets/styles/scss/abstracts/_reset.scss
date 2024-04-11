@@ -66,9 +66,9 @@ h6 {
 }
 
 body {
-    font-size: var(--global--font-size);
-    font-weight: var(--global--font-weight);
-    line-height: var(--global--line-height);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: 2;
     color: var(--clr-txt);
     /* background-color: $global--color-background; */
     /* font-family: 'Manrope', sans-serif; */
