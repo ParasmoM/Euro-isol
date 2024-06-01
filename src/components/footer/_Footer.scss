@@ -1,0 +1,67 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
+.footer {
+    background-color: var(--clr-white);
+    
+    &-section {
+        padding: 12rem 18rem 6rem;
+        display: flex;
+        gap: 10rem;
+
+        .footer-office,
+        .footer-info {
+            flex: 1;
+
+            h2 {
+                color: var(--clr-black);
+                padding-bottom: 2rem;
+            }
+        }
+
+        .footer-logo-container {
+            display: flex;
+            
+            .footer-logo-link {
+                display: block;
+            }
+
+            img:first-child {
+                height: 6rem;
+                margin: 0 auto 3rem;
+            }
+
+            img:last-child {
+                height: 3.5rem;
+            }
+        }
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-social {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            color: var(--clr-black);
+
+            svg {
+                height: 3.5rem;
+            }
+        }
+    }
+
+    &-copyright {
+        padding: 3rem 6rem;
+        border-top: solid 1px #CDD3D9;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        text-transform: uppercase;
+
+        span {
+            font-weight: 900;
+        }
+    }
+}

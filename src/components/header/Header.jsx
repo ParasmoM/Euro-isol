@@ -1,41 +1,62 @@
-import React from 'react'
-import infoData from "../../data/infoData.json"
-import useToggle from "../../hooks/useToggle.js";
+import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
+import { LanguageContext } from '../../context/LanguageContext';
 
-function Header() {
-    const data = infoData;
-    const [isHamburgerMenuOpen, toggleHamburgerMenu] = useToggle(false);
-    console.log(isHamburgerMenuOpen);
+function Header({ data }) {
+    return <>
+        <div className='header-container'>
+            <div className="header-content">
+                <div className="header-logo">
+                    <HeaderLogo />
+                </div>
+
+                <div className="header-menu">
+                    <HeaderMenu data={data} />
+                </div>
+            </div>
+        </div>
+    </>
+}
+
+function HeaderLogo() {
     return (
-        <header className="site-header">
-            <div className="logo-container">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <img src={data["info"]["logo"]} alt="" className='logo' />
+        <Link to={`/home`} rel="noopener noreferrer">
+            <img src={'/public/logo.svg'} alt="" className='logo' />
+            <img src={'/public/logo-title.svg'} alt="" className='logo-title' />
+        </Link>
+    )
+}
 
-                    <img src={data["info"]["logoTitle"]} alt="" className='logo-title' />
-                </a>
-            </div>
+function HeaderMenu({ data }) {
+    const { currentLang, handleLanguageChange } = useContext(LanguageContext);
 
-            <div className="navigation-container">
-                <div className={`main-content ${isHamburgerMenuOpen ? '' : ' no-show'}`}>
-                    <span className='number'>0032 478 52 86 02</span>
-                    <button className='language-btn'>NL</button>
+
+    return (
+        <>
+            {data[currentLang].map((item, index) => (
+                <Link key={index} to={item.href}>
+                    {item.title}
+                </Link>
+            ))}
+            <div className="lang-menu">
+                <div className='selected-lang'>
+                    {currentLang}
                 </div>
 
-                <div className={`secondary-content ${isHamburgerMenuOpen ? ' show' : ''}`}>
-                    <a to="/">À propos</a>
-                    <a to="/">Nos produits</a>
-                    <a to="/">Demander un devis</a>
-                </div>
+                <ul className=''>
+                    {['fr', 'nl', 'en'].map(lang => (
+                        lang !== currentLang &&
+                        <li
+                            key={lang}
+                            className=''
+                            onClick={() => handleLanguageChange(lang)}
+                        >
+                            {lang.toUpperCase()}
+                        </li>
+                    ))}
+                </ul>
             </div>
-
-            <button className={`hamburger-btn ${isHamburgerMenuOpen ? ' show' : ''}`} onClick={toggleHamburgerMenu}>
-                <span className='bar bar1'></span>
-                <span className='bar bar2'></span>
-                <span className='bar bar3'></span>
-            </button>
-        </header>
+        </>
     )
 }
 

@@ -1,0 +1,96 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
+.page-contact {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(#F5F6F8, #E6E8EC);
+    padding: 12rem 6rem;
+
+    .contact-form-title {
+        margin-bottom: 6rem;
+        text-transform: uppercase;
+        color: var(--clr-black);
+    }
+
+    .contact-form-section {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 3rem;
+
+        label {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            border-radius: 1rem;
+            font-size: var(--font-size-xs);
+            background-color: var(--clr-white);
+            padding: .8rem 6rem 1.6rem;
+        }
+
+        input {
+            font-size: 2rem;
+            border: none;
+            height: 3.5rem;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    }
+
+    .contact-form-subject {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        background-color: var(--clr-white);
+        padding: .8rem 6rem 1.6rem;
+        margin-bottom: 3rem;
+
+        label {
+            font-size: var(--font-size-xs);
+        }
+
+        input {
+            font-size: 2rem;
+            border: none;
+            height: 3.5rem;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    }
+
+    .contact-form-description {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        color: var(--clr-black);
+    }
+
+    .contact-form-message {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        background-color: var(--clr-white);
+        padding: .8rem 6rem 1.6rem;
+        margin-bottom: 3rem;
+
+        textarea {
+            font-size: 2rem;
+            border: none;
+            height: 20rem;
+        }
+
+        textarea:focus {
+            outline: none;
+        }
+    }
+
+    .contact-form-button {
+        @extend %btn-primary;
+
+        border: none;
+        width: 31rem;
+        margin-left: auto;
+    }
+
+}

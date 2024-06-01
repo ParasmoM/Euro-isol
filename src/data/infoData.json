@@ -1,6 +1,274 @@
 {
     "info": {
-        "logo": "/public/logo.svg",
-        "logoTitle": "/public/logo-title.svg"
+        "address": "Rue du Tilleul 254",
+        "email": "adressemail@crépis.be",
+        "phone": "0434 345 657"
+    },
+    "header": {
+        "fr": [
+            {
+                "title": "Demander un Devis",
+                "href": "/contact"
+            },
+            {
+                "title": "À Propos",
+                "href": "/about"
+            },
+            {
+                "title": "Nos Produits",
+                "href": "/catalog"
+            }
+        ],
+        "nl": [
+            {
+                "title": "Vraag een Offerte aan",
+                "href": "/contact"
+            },
+            {
+                "title": "Over",
+                "href": "/about"
+            },
+            {
+                "title": "Onze Producten",
+                "href": "/catalog"
+            }
+        ],
+        "en": [
+            {
+                "title": "Request a Quote",
+                "href": "/contact"
+            },
+            {
+                "title": "About",
+                "href": "/about"
+            },
+            {
+                "title": "Our Products",
+                "href": "/catalog"
+            }
+        ]
+    },
+    "footer": {},
+    "pageHome": {
+        "landingSpot": {
+            "fr": {
+                "title": "Bienvenue chez EURO-ISOL, qualité & durabilité, nos matériaux transforment vos projets en réalité.",
+                "button": "Accéder à notre catalogue"
+            },
+            "nl": {
+                "title": "Welkom bij EURO-ISOL, kwaliteit & duurzaamheid, onze materialen maken uw projecten werkelijkheid.",
+                "button": "Access our catalog"
+            },
+            "en": {
+                "title": "Welcome to EURO-ISOL, quality & sustainability, our materials transform your projects into reality.",
+                "button": "Toegang tot onze catalogus"
+            }
+        },
+        "whyChooseUs": {
+            "fr": [
+                {
+                    "id": 1,
+                    "title": "Pourquoi choisir Euro-Isol ?",
+                    "content": "À la recherche de solutions de crépis de premier choix pour vos projets de rénovation ou de construction neuve ? EURO-ISOL est votre allié incontournable. Notre sélection rigoureuse de produits pour crépis, combinée à notre expertise technique, assure la réussite de vos travaux d’isolation et de finition extérieure."
+                },
+                {
+                    "id": 2,
+                    "title": "Expertise reconnue",
+                    "content": "Notre équipe d'experts qualifiés possède une connaissance approfondie des dernières tendances et techniques en matière de crépis. Nous vous guidons dans le choix des produits les mieux adaptés à vos besoins, garantissant une application sans faille et des résultats durables."
+                },
+                {
+                    "id": 3,
+                    "title": "Qualité supérieure",
+                    "content": "Chez EURO-ISOL, la qualité n'est pas seulement une promesse; c'est une garantie. Nous sélectionnons soigneusement nos matériaux auprès de fournisseurs réputés pour leur excellence, assurant ainsi une finition esthétique et une protection optimale contre les éléments."
+                },
+                {
+                    "id": 4,
+                    "title": "Satisfaction du client",
+                    "content": "Votre satisfaction est au cœur de nos préoccupations. Nous nous engageons à fournir un service client exceptionnel, du conseil initial à la livraison de vos produits. Nous sommes là pour répondre à toutes vos questions et vous assister à chaque étape de votre projet."
+                },
+                {
+                    "id": 5,
+                    "title": "Durabilité et performance",
+                    "content": "Investir dans nos produits de crépis, c'est choisir une solution durable qui améliore l'isolation thermique et acoustique de votre bâtiment, tout en offrant une esthétique raffinée. Nos solutions contribuent également à une meilleure efficacité énergétique, réduisant vos coûts à long terme."
+                }
+            ],
+            "nl": [
+                {
+                    "id": 1,
+                    "title": "Waarom kiezen voor Euro-ISol?",
+                    "content": "Op zoek naar eersteklas pleisteroplossingen voor uw renovatie- of nieuwbouwprojecten? EURO-ISOL is uw onmisbare bondgenoot. Onze zorgvuldige selectie van pleisterproducten, gecombineerd met onze technische expertise, zorgt voor het succes van uw isolatie- en afwerkingswerkzaamheden."
+                },
+                {
+                    "id": 2,
+                    "title": "Erkende expertise",
+                    "content": "Ons team van gekwalificeerde experts heeft diepgaande kennis van de nieuwste trends en technieken op het gebied van pleisterwerk. We begeleiden u bij het kiezen van de meest geschikte producten voor uw behoeften, wat een foutloze toepassing en duurzame resultaten garandeert."
+                },
+                {
+                    "id": 3,
+                    "title": "Superieure kwaliteit",
+                    "content": "Bij EURO-ISOL is kwaliteit niet alleen een belofte; het is een garantie. We selecteren onze materialen zorgvuldig bij leveranciers die bekend staan om hun uitmuntendheid, waardoor een esthetische afwerking en optimale bescherming tegen de elementen worden verzekerd."
+                },
+                {
+                    "id": 4,
+                    "title": "Klanttevredenheid",
+                    "content": "Uw tevredenheid staat centraal in onze zorgen. We zetten ons in om een uitzonderlijke klantenservice te bieden, van het eerste advies tot de levering van uw producten. We staan klaar om al uw vragen te beantwoorden en u in elke fase van uw project te ondersteunen."
+                },
+                {
+                    "id": 5,
+                    "title": "Duurzaamheid en prestaties",
+                    "content": "Investeren in onze pleisterproducten is kiezen voor een duurzame oplossing die de thermische en akoestische isolatie van uw gebouw verbetert en tegelijkertijd een verfijnde esthetiek biedt. Onze oplossingen dragen ook bij aan een betere energie-efficiëntie, waardoor uw kosten op lange termijn worden verlaagd."
+                }
+            ],
+            "en": [
+                {
+                    "id": 1,
+                    "title": "Why Choose Euro-Isol?",
+                    "content": "Looking for top-notch plaster solutions for your renovation or new construction projects? EURO-ISOL is your indispensable ally. Our careful selection of plaster products, combined with our technical expertise, ensures the success of your insulation and exterior finishing work."
+                },
+                {
+                    "id": 2,
+                    "title": "Recognized Expertise",
+                    "content": "Our team of qualified experts possesses deep knowledge of the latest trends and techniques in plastering. We guide you in choosing the products best suited to your needs, ensuring flawless application and durable results."
+                },
+                {
+                    "id": 3,
+                    "title": "Superior Quality",
+                    "content": "At EURO-ISOL, quality is not just a promise; it's a guarantee. We carefully select our materials from suppliers known for their excellence, ensuring an aesthetic finish and optimal protection against the elements."
+                },
+                {
+                    "id": 4,
+                    "title": "Customer Satisfaction",
+                    "content": "Your satisfaction is at the heart of our concerns. We are committed to providing exceptional customer service, from the initial consultation to the delivery of your products. We are here to answer all your questions and assist you at every step of your project."
+                },
+                {
+                    "id": 5,
+                    "title": "Durability and Performance",
+                    "content": "Investing in our plaster products means choosing a durable solution that improves the thermal and acoustic insulation of your building while offering refined aesthetics. Our solutions also contribute to better energy efficiency, reducing your long-term costs."
+                }
+            ]
+        },
+        "aboutUs": {
+            "fr": {
+                "title": "À propos de nous",
+                "content": "Fondée il y a deux ans à Huy, Euro-isole s'est imposée comme votre expert incontournable en Belgique pour des solutions de crépi de haute qualité à des prix imbattables. Notre mission ? Offrir la meilleure qualité et service, avec une vision ambitieuse de croissance en Belgique et au-delà. Découvrez pourquoi nos clients nous choisissent et comment nous envisageons l'avenir du crépi et de l'isolation.",
+                "button": "En savoir plus sur EURO-ISOL"
+            },
+            "nl": {
+                "title": "Over ons",
+                "content": "Twee jaar geleden opgericht in Huy, heeft Euro-isole zich gevestigd als uw onmisbare expert in België voor hoogwaardige pleisteroplossingen tegen onverslaanbare prijzen. Onze missie? De beste kwaliteit en service bieden, met een ambitieuze groeivisie in België en daarbuiten. Ontdek waarom onze klanten voor ons kiezen en hoe wij de toekomst van pleisterwerk en isolatie zien.",
+                "button": "Meer weten over EURO-ISOL"
+            },
+            "en": {
+                "title": "About Us",
+                "content": "Founded two years ago in Huy, Euro-isole has established itself as your indispensable expert in Belgium for high-quality plaster solutions at unbeatable prices. Our mission? To offer the best quality and service, with an ambitious vision for growth in Belgium and beyond. Discover why our clients choose us and how we envision the future of plastering and insulation.",
+                "button": "Learn more about EURO-ISOL"
+            }
+        },
+        "contactInformation": {
+            "fr": {
+                "sectionTitle": "Informations pratiques",
+                "openingHoursTitle": "Heures d'ouverture",
+                "servicesTitle": "Nos services",
+                "contactTitle": "Nos Bureaux & contact",
+                "openingHoursContent": "Nos bureaux sont ouverts du lundi au vendredi de 8h00 à 15h00.",
+                "servicesContent": "Isolation & finitions extérieures",
+                "contactButton": "Prendre contact"
+            },
+            "nl": {
+                "sectionTitle": "Praktische informatie",
+                "openingHoursTitle": "Openingstijden",
+                "servicesTitle": "Onze diensten",
+                "contactTitle": "Onze kantoren & contact",
+                "openingHoursContent": "Onze kantoren zijn geopend van maandag tot en met vrijdag van 8.00 uur tot 15.00 uur.",
+                "servicesContent": "Isolatie & buitenafwerking",
+                "contactButton": "Contact opnemen"
+            },
+            "en": {
+                "sectionTitle": "Practical Information",
+                "openingHoursTitle": "Opening Hours",
+                "servicesTitle": "Our Services",
+                "contactTitle": "Our Offices & Contact",
+                "openingHoursContent": "Our offices are open Monday to Friday from 8:00 AM to 3:00 PM.",
+                "servicesContent": "Insulation & Exterior Finishes",
+                "contactButton": "Get in Touch"
+            }
+        }
+    },
+    "pageAbout": {
+        "fr": {
+            "mainTitle": "En savoir plus sur Euro-isol",
+            "sections": [
+                {
+                    "subTitle": "À propos d'Euro-Isol",
+                    "description": "Bienvenue chez Euro-isole, votre partenaire de confiance en Belgique pour tous vos besoins en crépi de haute qualité. Fondée il y a deux ans à Huy, Euro-isole s'est rapidement imposée comme une référence dans le domaine, grâce à notre engagement sans faille pour la qualité, l'accessibilité et la satisfaction client."
+                },
+                {
+                    "subTitle": "Engagement pour la Qualité et l'Accessibilité",
+                    "description": "Chez Euro-isole, nous croyons que la qualité ne devrait jamais être compromise par le prix. C'est pourquoi nous sommes fiers d'offrir les tarifs les plus compétitifs du marché belge, sans jamais lésiner sur la qualité de nos produits et services. Nos crépis sont sélectionnés avec le plus grand soin, afin de garantir une finition impeccable et durable pour votre maison ou votre projet commercial."
+                },
+                {
+                    "subTitle": "Une Livraison sans Frontières",
+                    "description": "Conscients des défis logistiques que peuvent rencontrer nos clients, nous avons optimisé notre chaîne d'approvisionnement pour assurer une livraison rapide et efficace partout en Belgique. Peu importe où vous êtes situé, Euro-isole s'engage à vous livrer vos besoins en crépi avec la même constance en qualité et en service."
+                },
+                {
+                    "subTitle": "Une Vision Tournée vers l'Avenir",
+                    "description": "Euro-isole ne se contente pas de répondre aux besoins actuels de nos clients. Nous avons une vision ambitieuse pour l'avenir. Notre objectif est de nous implanter durablement en Belgique, en devenant le fournisseur de choix pour le crépi et les solutions d'isolation. Mais notre vision ne s'arrête pas là : nous envisageons également de nous étendre au Luxembourg et en Hollande, afin d'apporter notre expertise et nos services de qualité à un plus large éventail de clients en Europe."
+                },
+                {
+                    "subTitle": "Euro-isol : Plus qu'une Entreprise, un Partenaire de Confiance",
+                    "description": "Située à Huy, notre entreprise incarne les valeurs de proximité et d'expertise. Choisir Euro-isole, c'est opter pour un partenaire de confiance qui comprend vos besoins et s'engage à y répondre avec professionnalisme et attention. Rejoignez notre communauté de clients satisfaits et découvrez par vous-même pourquoi Euro-isole est le choix numéro un pour vos projets de crépi en Belgique."
+                }
+            ]
+        },
+        "nl": {
+            "mainTitle": "Meer informatie over Euro-isol",
+            "sections": [
+                {
+                    "subTitle": "Over Euro-Isol",
+                    "description": "Welkom bij Euro-isol, uw vertrouwde partner in België voor al uw hoogwaardige pleisterbehoeften. Euro-isol, opgericht twee jaar geleden in Hoei, heeft zich snel gevestigd als een referentie in het vakgebied, dankzij onze onwankelbare inzet voor kwaliteit, toegankelijkheid en klanttevredenheid."
+                },
+                {
+                    "subTitle": "Inzet voor Kwaliteit en Toegankelijkheid",
+                    "description": "Bij Euro-isol geloven we dat kwaliteit nooit door de prijs mag worden aangetast. Daarom zijn we er trots op de meest concurrerende tarieven op de Belgische markt te bieden, zonder ooit te bezuinigen op de kwaliteit van onze producten en diensten. Onze pleisters worden met de grootste zorg geselecteerd om een onberispelijke en duurzame afwerking voor uw woning of commerciële project te garanderen."
+                },
+                {
+                    "subTitle": "Levering Zonder Grenzen",
+                    "description": "Zich bewust van de logistieke uitdagingen waarmee onze klanten te maken kunnen krijgen, hebben we onze toeleveringsketen geoptimaliseerd om een snelle en efficiënte levering in heel België te garanderen. Waar u zich ook bevindt, Euro-isol zet zich in om uw pleisterbehoeften met dezelfde consistentie in kwaliteit en service te leveren."
+                },
+                {
+                    "subTitle": "Een Visie op de Toekomst",
+                    "description": "Euro-isol voldoet niet alleen aan de huidige behoeften van onze klanten. We hebben een ambitieuze visie voor de toekomst. Ons doel is om ons duurzaam te vestigen in België en de voorkeursleverancier te worden voor pleister- en isolatieoplossingen. Maar onze visie stopt daar niet: we zijn ook van plan uit te breiden naar Luxemburg en Nederland, zodat we onze expertise en kwaliteitsdiensten kunnen aanbieden aan een breder scala van klanten in Europa."
+                },
+                {
+                    "subTitle": "Euro-Isol: Meer dan een Bedrijf, een Vertrouwde Partner",
+                    "description": "Gelegen in Hoei, belichaamt ons bedrijf de waarden van nabijheid en expertise. Kiezen voor Euro-isol betekent kiezen voor een vertrouwde partner die uw behoeften begrijpt en zich inzet om deze met professionaliteit en zorg te vervullen. Sluit u aan bij onze gemeenschap van tevreden klanten en ontdek zelf waarom Euro-isol de nummer één keuze is voor uw pleisterprojecten in België."
+                }
+            ]
+        },
+        "en": {
+            "mainTitle": "Learn more about Euro-isol",
+            "sections": [
+                {
+                    "subTitle": "About Euro-Isol",
+                    "description": "Welcome to Euro-isol, your trusted partner in Belgium for all your high-quality rendering needs. Founded two years ago in Huy, Euro-isol has quickly established itself as a reference in the field, thanks to our unwavering commitment to quality, accessibility, and customer satisfaction."
+                },
+                {
+                    "subTitle": "Commitment to Quality and Accessibility",
+                    "description": "At Euro-isol, we believe that quality should never be compromised by price. That’s why we are proud to offer the most competitive rates on the Belgian market, without ever skimping on the quality of our products and services. Our renders are selected with the utmost care to ensure a flawless and durable finish for your home or commercial project."
+                },
+                {
+                    "subTitle": "Delivery Without Borders",
+                    "description": "Aware of the logistical challenges our customers may face, we have optimized our supply chain to ensure fast and efficient delivery throughout Belgium. No matter where you are located, Euro-isol is committed to delivering your rendering needs with the same consistency in quality and service."
+                },
+                {
+                    "subTitle": "A Vision for the Future",
+                    "description": "Euro-isol does not just meet the current needs of our customers. We have an ambitious vision for the future. Our goal is to establish ourselves sustainably in Belgium, becoming the preferred supplier for rendering and insulation solutions. But our vision does not stop there: we also plan to expand to Luxembourg and the Netherlands, bringing our expertise and quality services to a wider range of customers in Europe."
+                },
+                {
+                    "subTitle": "Euro-Isol: More Than a Company, a Trusted Partner",
+                    "description": "Located in Huy, our company embodies the values of proximity and expertise. Choosing Euro-isol means opting for a trusted partner who understands your needs and is committed to meeting them with professionalism and care. Join our community of satisfied customers and discover for yourself why Euro-isol is the number one choice for your rendering projects in Belgium."
+                }
+            ]
+        }
     }
 }

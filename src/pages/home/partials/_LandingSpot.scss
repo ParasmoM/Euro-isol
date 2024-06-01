@@ -1,7 +1,27 @@
-.landing-spot {
-    border: dashed 1px red;
-}
+@use "/src/assets/styles/scss/abstracts" as *;
+// @use "../../../assets/styles/scss/abstracts" as *;
 
-.landing-spot-content {
-    padding: 0 15rem;
+.landing-spot {
+
+    &-container {
+        @extend %page-container;
+
+        padding: 28rem 15rem 12rem;
+    }
+
+    &-title {
+        color: var(--clr-black);
+        line-height: 1.2;
+        font-weight: var(--font-weight-bold);
+        font-size: 3.6rem;
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .company-name {
+        font-weight: var(--font-weight-extra);
+    }
+
+    &-link {
+        @extend %btn-theme;
+    }
 }

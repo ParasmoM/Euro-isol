@@ -1,0 +1,26 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
+.about-us {
+    &-container {
+        @extend %page-container;
+        
+        text-align: center;
+        padding: 12rem 15rem;
+    }
+
+    &-title {
+        text-transform: uppercase;
+        color: var(--clr-black);
+        margin-bottom: var(--spacing-lg);
+    }
+
+    &-description {
+        line-height: 2;
+        margin-bottom: var(--spacing-xl);
+    }
+
+    &-link {
+        @extend %btn-primary;
+        margin: auto;
+    }
+}

@@ -1,0 +1,71 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
+.contact-information {
+    &-container {
+        padding: 12rem 6rem;
+    }
+
+    &-content {
+        display: flex;
+        gap: var(--spacing-lg);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .contact-header {
+        flex: 1;
+
+        .contact-title,
+        .section-heading {
+            color: var(--clr-black);
+            text-transform: uppercase;
+        }
+
+        .contact-title {
+            font-size: 3.2rem;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .section-heading {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .contact-details {
+            display: flex;
+            gap: var(--spacing-xl);
+
+            .contact-details-section,
+            .office-contact {
+                flex: 1;
+            }
+
+            .contact-details-section {
+                display: flex;
+                flex-direction: column;
+                gap: var(--spacing-lg);
+            }
+            
+            .contact-info {
+                
+            }
+            .contact-info > div{
+                display: flex;
+                gap: .5rem;
+                margin-top: 1rem;
+            }
+            .contact-info svg {
+                display: block;
+                height: 2.5rem;
+                color: var(--clr-black);
+            }
+        }
+    }
+
+    .map-container {
+        flex: 1;
+    }
+
+    .contact-link {
+        @extend %btn-primary;
+    }
+}

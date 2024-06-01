@@ -1,5 +1,20 @@
 .page-home {
     font-family: "Open Sans", sans-serif;
-    /* padding: 0 6rem;  */
-    border: solid 1px red;
+    background: linear-gradient(#F5F6F8, #E6E8EC);
+
+    .landing-spot {
+        background-image: url('/public/background.png');
+    }
+
+    .why-choose-us {
+        background-color: transparent;
+    }
+
+    .about-us {
+        background-color: var(--clr-white); 
+    }
+
+    .contact-information {
+        background-color: transparent;
+    }
 }

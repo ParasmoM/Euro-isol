@@ -1,0 +1,17 @@
+.page-about {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(#F5F6F8, #E6E8EC);
+    padding: 10rem 6rem 12rem;
+
+    h1,
+    h2 {
+        color: var(--clr-black);
+        padding-block: 2rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        text-align: justify;
+    }
+    
+}

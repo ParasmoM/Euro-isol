@@ -1,0 +1,161 @@
+{
+    "crepi": {
+        "article1": {
+            "brand": "Bitex",
+            "title": "Crepi blanc 25kg - 1,5mm",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "BITEX-crepi-blanc.png",
+            "category": "Crepi",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "BITEX-crepi-blanc.png"
+                ]
+            }
+        },
+        "article2": {
+            "brand": "Bitex",
+            "title": "Betonkontakt 15kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "BITEX-Betonkontakt.png",
+            "category": "Crepi",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "Betonkontakt 15kg"
+                ]
+            }
+        },
+        "article4": {
+            "brand": "Bitex",
+            "title": "Ega Farbe 20kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "BITEX-Ega-Farbe.png",
+            "category": "Crepi",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "BITEX-Ega-Farbe.png"
+                ]
+            }
+        },
+        "article5": {
+            "brand": "Bitex",
+            "title": "Grundierfarbe 25kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "BITEX-Grundierfarbe.png",
+            "category": "Crepi",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "BITEX-Grundierfarbe.png"
+                ]
+            }
+        }
+    },
+    "colle": {
+        "article1": {
+            "brand": "Gemix",
+            "title": "Orbistyro 25kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "GEMIX-Orbistyro.png",
+            "category": "Colle",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "GEMIX-Orbistyro.png"
+                ]
+            }
+        },
+        "article3": {
+            "brand": "Gemix",
+            "title": "GT-200 Series 25kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "GEMIX-GT-200.png",
+            "category": "Colle",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "GEMIX-GT-200.png"
+                ]
+            }
+        },
+        "article4": {
+            "brand": "Gemix",
+            "title": "GT-400 Series 25kg",
+            "description": "",
+            "price": "undefined",
+            "dimension": "",
+            "image": "GEMIX-GT-400.png",
+            "category": "Colle",
+            "details": {
+                "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                "characteristic": [
+                    "inventore odio molestias",
+                    "tenetur ipsa",
+                    "consectetur",
+                    "reprehenderit"
+                ],
+                "gallery": [
+                    "GEMIX-GT-400.png"
+                ]
+            }
+        }
+    },
+    "isolations": {}
+}

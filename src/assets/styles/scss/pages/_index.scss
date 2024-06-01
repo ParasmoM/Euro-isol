@@ -1,2 +1,10 @@
 @use "/src/pages/home/PageHome";
-@use "/src/pages/home/partials/_LandingSpot"
+    @use "/src/pages/home/partials/LandingSpot";
+    @use "/src/pages/home/partials/WhyChooseUs";
+    @use "/src/pages/home/partials/AboutUs";
+    @use "/src/pages/home/partials/ContactInformation";
+@use "/src/pages/about/PageAbout";
+@use "/src/pages/contact/PageContact";
+@use "/src/pages/catalog/PageCatalog";
+    @use "/src/pages/catalog/partials/ProductCard";
+    @use "/src/pages/catalog/partials/ProductDetailView";
