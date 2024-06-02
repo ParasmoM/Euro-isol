@@ -44,8 +44,8 @@ function AppContent({ data }) {
                 ))}
             </Routes>
 
-            <footer>
-                <Footer />
+            <footer className='footer'>
+                <Footer data={data} lang={currentLang} />
             </footer>
         </Router>
     );

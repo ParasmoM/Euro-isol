@@ -48,7 +48,101 @@
             }
         ]
     },
-    "footer": {},
+    "footer": {
+        "fr": {
+            "info": {
+                "title": "INFORMATIONS DE CONTACT",
+                "content": {
+                    "address": "ADRESSE DU QG",
+                    "email": "E-MAIL",
+                    "phone": "TÉLÉPHONE"
+                },
+                "schedule": {
+                    "title": "JOURS/HEURES OUVRABLES",
+                    "value": "Lundi - Vendredi / 8h00 - 15h00"
+                }
+            },
+            "utils": {
+                "title": "LIENS UTILES",
+                "content": [
+                    {
+                        "title": "À propos de nous",
+                        "href": "/about"
+                    },
+                    {
+                        "title": "Contactez-nous",
+                        "href": "/contact"
+                    },
+                    {
+                        "title": "Mentions légales",
+                        "href": "/"
+                    }
+                ]
+            }
+        },
+        "nl": {
+            "info": {
+                "title": "CONTACTGEGEVENS",
+                "content": {
+                    "address": "ADRES VAN HET HOOFDKANTOOR",
+                    "email": "E-MAIL",
+                    "phone": "TELEFOON"
+                },
+                "schedule": {
+                    "title": "OPENINGSUREN",
+                    "value": "Maandag - vrijdag / 8:00 - 15:00 uur"
+                }
+            },
+            "utils": {
+                "title": "NUTTIGE LINKS",
+                "content": [
+                    {
+                        "title": "Over ons",
+                        "href": "/about"
+                    },
+                    {
+                        "title": "Neem contact op",
+                        "href": "/contact"
+                    },
+                    {
+                        "title": "Juridische kennisgeving",
+                        "href": "/"
+                    }
+                ]
+            }
+        },
+        "en": {
+            "info": {
+                "title": "CONTACT INFORMATION",
+                "content": {
+                    "address": "HEADQUARTERS ADDRESS",
+                    "email": "EMAIL",
+                    "phone": "PHONE"
+                },
+                "schedule": {
+                    "title": "OPENING HOURS",
+                    "value": "Monday - Friday / 8:00AM - 3:00PM"
+                }
+            },
+            "utils": {
+                "title": "USEFUL LINKS",
+                "content": [
+                    {
+                        "title": "About Us",
+                        "href": "/about"
+                    },
+                    {
+                        "title": "Contact Us",
+                        "href": "/contact"
+                    },
+                    {
+                        "title": "Legal Notice",
+                        "href": "/"
+                    }
+                ]
+            }
+        }
+    },
     "pageHome": {
         "landingSpot": {
             "fr": {
