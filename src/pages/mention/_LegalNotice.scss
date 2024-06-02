@@ -1,0 +1,27 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
+.page-legal {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(#F5F6F8, #E6E8EC);
+
+    .container {
+        @extend %page-container;
+
+        padding: 12rem 6rem;
+    }
+
+    h1, h2 {
+        text-transform: uppercase;
+        color: var(--clr-black);
+    }
+    h2 {
+        padding: 2rem 0;
+    }
+    p {
+        text-align: justify;
+
+        &:not(:first-of-type) {
+            margin-top: 1.5rem;
+        }
+    }
+}

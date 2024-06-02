@@ -75,7 +75,7 @@
                     },
                     {
                         "title": "Mentions légales",
-                        "href": "/"
+                        "href": "/legal-notice"
                     }
                 ]
             }
@@ -106,7 +106,7 @@
                     },
                     {
                         "title": "Juridische kennisgeving",
-                        "href": "/"
+                        "href": "/legal-notice"
                     }
                 ]
             }
@@ -137,7 +137,7 @@
                     },
                     {
                         "title": "Legal Notice",
-                        "href": "/"
+                        "href": "/legal-notice"
                     }
                 ]
             }
@@ -364,5 +364,181 @@
                 }
             ]
         }
+    },
+    "legalNotice": {
+        "fr": [
+            {
+                "title": "1. Généralités",
+                "text": [
+                    "L’utilisation de ce site implique l’acceptation pleine et entière des conditions d’utilisation décrites ci-après. Ces conditions sont susceptibles d’être modifiées ou complétées à tout moment ; les utilisateurs sont donc invités à les consulter régulièrement.",
+                    "Le site est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut, toutefois, être décidée.",
+                    "Le site est mis à jour régulièrement. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur, qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance."
+                ]
+            },
+            {
+                "title": "2. Description des services fournis",
+                "text": [
+                    "Ce site a pour objet de fournir une information concernant l’ensemble des services offerts et missions effectuées par l’entreprise ou la personne physique représentée.",
+                    "Celle-ci s’efforce de fournir sur le site des informations aussi précises que possible. Toutefois, elle ne peut être tenue responsable des omissions, des inexactitudes, et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.",
+                    "Toutes les informations indiquées sur le site sont données à titre indicatif et sont susceptibles d’évoluer. Par ailleurs, les renseignements y figurant ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne."
+                ]
+            },
+            {
+                "title": "3. Limitations contractuelles sur les données techniques",
+                "text": [
+                    "Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis à jour."
+                ]
+            },
+            {
+                "title": "4. Propriété intellectuelle et contrefaçons",
+                "text": [
+                    "Le contenu de ce site web, incluant graphismes, images, textes, vidéos, animations, sons, logos, gifs, icônes, et leur arrangement, est exclusivement détenu par Euro-Isol, sauf pour les éléments appartenant à des tiers. La reproduction ou utilisation de ces éléments sans autorisation écrite préalable de Euro-Isol est strictement interdite et susceptible de poursuites.",
+                    "Marco Parasmo détient les droits sur tous les éléments du site, sauf mention contraire. Toute action telle que la reproduction, modification ou publication sans l'accord de Marco Parasmo est interdite et sera traitée conformément aux lois sur la propriété intellectuelle."
+                ]
+            },
+            {
+                "title": "5. Limitations de responsabilité",
+                "text": [
+                    "Marco Parasmo ne pourrait être tenues responsables des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès à ce site, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 3, soit de l’apparition d’un bug ou d’une incompatibilité. Ils ne pourront également être tenus responsables des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation de ce site."
+                ]
+            },
+            {
+                "title": "6. Confidentialité et protection des données",
+                "text": [
+                    "Euro-Isol respecte la vie privée de ses visiteurs et clients. Actuellement, notre site ne collecte aucune donnée personnelle et est conforme aux principes de protection des données personnelles."
+                ]
+            },
+            {
+                "title": "7. Les cookies",
+                "text": [
+                    "À l'heure actuelle, notre site ne fait usage d'aucun cookie pour collecter des informations personnelles ou suivre les activités de nos visiteurs. Nous nous engageons à respecter votre vie privée et à garantir une expérience transparente et sécurisée lors de votre navigation sur notre site.",
+                    "Cependant, il est possible qu'à l'avenir, nous décidions d'utiliser des cookies dans le but d'améliorer nos services et l'expérience utilisateur. Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à comprendre comment les visiteurs interagissent avec notre site, à personnaliser le contenu et les annonces, à fournir des fonctionnalités de médias sociaux et à analyser notre trafic.",
+                    "Si nous décidons d'introduire l'utilisation de cookies, nous mettrons à jour cette section pour expliquer clairement les types de cookies utilisés, leur finalité, ainsi que les choix dont vous disposerez pour gérer ou refuser ces cookies. Votre consentement sera sollicité avant toute utilisation de cookies non strictement nécessaires à la fonctionnalité de base du site.",
+                    "Nous vous invitons à consulter régulièrement cette section pour vous tenir informé de toute modification concernant l'utilisation des cookies sur notre site."
+                ]
+            },
+            {
+                "title": "8. Loi applicable",
+                "text": [
+                    "Le présent site Internet et ses mentions légales sont régis par le droit belge, et tout litige éventuel lié à ce site sera soumis à la compétence exclusive des tribunaux de Belgique."
+                ]
+            }
+        ],
+        "nl": [
+            {
+                "title": "1. Algemene informatie",
+                "text": [
+                    "Het gebruik van deze site impliceert volledige en onvoorwaardelijke aanvaarding van de hieronder beschreven gebruiksvoorwaarden. Deze voorwaarden kunnen op elk moment worden gewijzigd of aangevuld; gebruikers worden daarom uitgenodigd om ze regelmatig te raadplegen.",
+                    "De site is normaal gesproken te allen tijde toegankelijk voor gebruikers. Een onderbreking voor technisch onderhoud kan echter worden besloten.",
+                    "De site wordt regelmatig bijgewerkt. Evenzo kunnen de wettelijke kennisgevingen op elk moment worden gewijzigd: ze zijn echter bindend voor de gebruiker, die wordt uitgenodigd om er zo vaak mogelijk naar te verwijzen om ze te kennen."
+                ]
+            },
+            {
+                "title": "2. Beschrijving van de geleverde diensten",
+                "text": [
+                    "Het doel van deze site is om informatie te verstrekken over alle aangeboden diensten en uitgevoerde missies door het bedrijf of de vertegenwoordigde persoon.",
+                    "Er wordt gestreefd naar zo nauwkeurig mogelijke informatie op de site. Echter, het kan niet verantwoordelijk worden gehouden voor weglatingen, onnauwkeurigheden, en tekortkomingen in updates, of deze nu te wijten zijn aan zijn eigen schuld of aan die van derden die deze informatie verstrekken.",
+                    "Alle informatie op de site wordt uitsluitend ter informatie verstrekt en kan worden gewijzigd. Bovendien is de informatie op de site niet uitputtend. Ze wordt verstrekt onder voorbehoud van wijzigingen die sinds de plaatsing online zijn aangebracht."
+                ]
+            },
+            {
+                "title": "3. Contractuele beperkingen op technische gegevens",
+                "text": [
+                    "De website kan niet aansprakelijk worden gesteld voor enige materiële schade die voortvloeit uit het gebruik van de site. Bovendien stemt de gebruiker ermee in de site te bezoeken met recent materiaal, vrij van virussen, en met een up-to-date, nieuwste generatie browser."
+                ]
+            },
+            {
+                "title": "4. Intellectueel eigendom en vervalsing",
+                "text": [
+                    "De inhoud van deze website, inclusief grafieken, afbeeldingen, teksten, video's, animaties, geluiden, logo's, gifs, pictogrammen, en hun rangschikking, is exclusief eigendom van Euro-Isol, met uitzondering van elementen die toebehoren aan derden. Reproductie of gebruik van deze elementen zonder voorafgaande schriftelijke toestemming van Euro-Isol is strikt verboden en kan leiden tot juridische stappen.",
+                    "Marco Parasmo bezit de rechten op alle elementen van de site, tenzij anders vermeld. Handelingen zoals reproductie, wijziging, of publicatie zonder de toestemming van Marco Parasmo zijn verboden en zullen worden behandeld in overeenstemming met de intellectuele eigendomswetten."
+                ]
+            },
+            {
+                "title": "5. Aansprakelijkheidsbeperkingen",
+                "text": [
+                    "Marco Parasmo is niet aansprakelijk voor directe of indirecte schade aan de hardware van de gebruiker, als gevolg van de toegang tot deze site, hetzij door het gebruik van apparatuur die niet voldoet aan de specificaties zoals aangegeven in punt 3, hetzij door het optreden van een bug of incompatibiliteit. Ze zijn ook niet aansprakelijk voor indirecte schade (zoals verlies van markt of verlies van kans) als gevolg van het gebruik van deze site."
+                ]
+            },
+            {
+                "title": "6. Privacy en gegevensbescherming",
+                "text": [
+                    "Euro-Isol respecteert de privacy van haar bezoekers en klanten. Momenteel verzamelt onze site geen persoonlijke gegevens en voldoet aan de principes van bescherming van persoonsgegevens."
+                ]
+            },
+            {
+                "title": "7. Cookies",
+                "text": [
+                    "Op dit moment maakt onze website geen gebruik van cookies om persoonlijke informatie te verzamelen of de activiteiten van onze bezoekers te volgen. We zijn toegewijd aan het respecteren van uw privacy en het garanderen van een transparante en veilige ervaring tijdens het browsen op onze site.",
+                    "Het is echter mogelijk dat we in de toekomst besluiten cookies te gebruiken om onze diensten en gebruikerservaring te verbeteren. Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen en ons helpen begrijpen hoe bezoekers interageren met onze site, inhoud en advertenties personaliseren, sociale mediafuncties bieden en ons verkeer analyseren.",
+                    "Als we besluiten het gebruik van cookies in te voeren, zullen we deze sectie bijwerken om duidelijk de soorten cookies die worden gebruikt, hun doel en de keuzes die u heeft om deze cookies te beheren of te weigeren, uit te leggen. Uw toestemming zal worden gevraagd voordat er gebruik wordt gemaakt van cookies die niet strikt noodzakelijk zijn voor de basisfunctionaliteit van de site.",
+                    "We nodigen u uit om deze sectie regelmatig te controleren om op de hoogte te blijven van eventuele wijzigingen met betrekking tot het gebruik van cookies op onze site."
+                ]
+            },
+            {
+                "title": "8. Toepasselijke wetgeving",
+                "text": [
+                    "De huidige website en de wettelijke vermeldingen worden beheerst door het Belgische recht, en elk geschil met betrekking tot deze website zal worden onderworpen aan de exclusieve bevoegdheid van de Belgische rechtbanken."
+                ]
+            }
+        ],
+        "en": [
+            {
+                "title": "1. General Information",
+                "text": [
+                    "The use of this site implies full and complete acceptance of the terms of use described below. These terms are subject to change or addition at any time; users are therefore invited to consult them regularly.",
+                    "The site is normally accessible to users at all times. However, an interruption for technical maintenance may be decided.",
+                    "The site is regularly updated. Similarly, the legal notices may be modified at any time: they are nevertheless binding on the user, who is invited to refer to them as often as possible to become aware of them."
+                ]
+            },
+            {
+                "title": "2. Description of Services Provided",
+                "text": [
+                    "The purpose of this site is to provide information regarding all the services offered and missions carried out by the company or the represented individual.",
+                    "It strives to provide as accurate information as possible on the site. However, it cannot be held responsible for omissions, inaccuracies, and shortcomings in updates, whether they are due to its own fault or that of third-party partners who provide this information.",
+                    "All the information indicated on the site is given for informational purposes only and is subject to change. Moreover, the information on the site is not exhaustive. It is provided subject to changes that may have been made since it was put online."
+                ]
+            },
+            {
+                "title": "3. Contractual Limitations on Technical Data",
+                "text": [
+                    "The website cannot be held responsible for any material damage resulting from the use of the site. Additionally, the user agrees to access the site using recent equipment, free from viruses, and with an up-to-date, latest-generation browser."
+                ]
+            },
+            {
+                "title": "4. Intellectual Property and Counterfeiting",
+                "text": [
+                    "The content of this website, including graphics, images, texts, videos, animations, sounds, logos, gifs, icons, and their arrangement, is exclusively owned by Euro-Isol, except for elements belonging to third parties. The reproduction or use of these elements without prior written authorization from Euro-Isol is strictly prohibited and may result in legal action.",
+                    "Marco Parasmo holds the rights to all elements of the site, unless otherwise stated. Any actions such as reproduction, modification, or publication without the consent of Marco Parasmo are prohibited and will be treated in accordance with intellectual property laws."
+                ]
+            },
+            {
+                "title": "5. Liability Limitations",
+                "text": [
+                    "Marco Parasmo shall not be liable for direct or indirect damages to the user’s hardware, resulting from accessing this site, either from the use of equipment that does not meet the specifications indicated in point 3, or from the occurrence of a bug or incompatibility. They shall also not be liable for indirect damages (such as loss of market or loss of opportunity) resulting from the use of this site."
+                ]
+            },
+            {
+                "title": "6. Privacy and Data Protection",
+                "text": [
+                    "Euro-Isol respects the privacy of its visitors and customers. Currently, our site does not collect any personal data and complies with the principles of personal data protection."
+                ]
+            },
+            {
+                "title": "7. Cookies",
+                "text": [
+                    "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site.",
+                    "However, it is possible that in the future, we may decide to use cookies to improve our services and user experience. Cookies are small text files stored on your device that help us understand how visitors interact with our site, personalize content and ads, provide social media features, and analyze our traffic.",
+                    "If we decide to introduce the use of cookies, we will update this section to clearly explain the types of cookies used, their purpose, and the choices you will have to manage or refuse these cookies. Your consent will be sought before any use of cookies that are not strictly necessary for the basic functionality of the site.",
+                    "We invite you to regularly check this section to stay informed of any changes regarding the use of cookies on our site."
+                ]
+            },
+            {
+                "title": "8. Applicable Law",
+                "text": [
+                    "The present website and its legal notices are governed by Belgian law, and any dispute related to this website will be subject to the exclusive jurisdiction of the Belgian courts."
+                ]
+            }
+        ]
     }
 }

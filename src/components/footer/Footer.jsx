@@ -44,10 +44,9 @@ function Footer({ data, lang }) {
 
                         <ul>
                             {section["utils"]["content"].map((value, index) => (
-                                <li>
+                                <li key={index}>
                                     <Link
                                         to={value["href"]}
-                                        key={index}
                                         rel='noopener noreferrer'
                                     >
                                         {value["title"]}

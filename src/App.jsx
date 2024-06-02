@@ -10,6 +10,7 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import dataBase from './data/infoData.json';
 import { LanguageContext, LanguageProvider } from './context/LanguageContext';
+import PageLegal from './pages/mention/PageLegal';
 
 function App() {
     const data = dataBase;
@@ -30,6 +31,7 @@ function AppContent({ data }) {
         { path: '/catalog', element: <PageCatalog /> },
         { path: '/about', element: <PageAbout data={data["pageAbout"]} lang={currentLang} /> },
         { path: '/detail', element: <ProductDetailView /> },
+        { path: '/legal-notice', element: <PageLegal data={data["legalNotice"]} lang={currentLang} /> },
     ];
 
     return (
