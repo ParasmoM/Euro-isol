@@ -21,8 +21,8 @@ function Header({ data }) {
 function HeaderLogo() {
     return (
         <Link to={`/home`} rel="noopener noreferrer">
-            <img src={'/public/logo.svg'} alt="" className='logo' />
-            <img src={'/public/logo-title.svg'} alt="" className='logo-title' />
+            <img src={'/logo.svg'} alt="" className='logo' />
+            <img src={'/logo-title.svg'} alt="" className='logo-title' />
         </Link>
     )
 }

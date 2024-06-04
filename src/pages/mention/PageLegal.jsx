@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PageLegal({ data, lang }) {
+function pageLegal({ data, lang }) {
     const titles = {
         fr: "Mentions Légales",
         nl: "Wettelijke Kennisgeving",
@@ -31,4 +31,4 @@ function PageLegal({ data, lang }) {
     )
 }
 
-export default PageLegal
+export default pageLegal

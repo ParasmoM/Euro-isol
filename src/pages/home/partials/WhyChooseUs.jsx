@@ -21,7 +21,7 @@ function WhyChooseUs({ data, lang }) {
 
             <div className='why-choose-us-content'>
                 <div className='why-choose-us-image'>
-                    <img src="/public/image1.png" alt="Euro-Sol Quality Materials" />
+                    <img src="/image1.png" alt="Euro-Sol Quality Materials" />
                 </div>
 
                 <div className='why-choose-us-articles'>

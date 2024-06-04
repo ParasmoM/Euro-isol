@@ -1,33 +1,83 @@
 import React from 'react'
 import { Loop } from '../../assets/icons/icons'
 import ProductCard from './partials/ProductCard'
-import products from "../../data/products.json";
 import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
+import Checkbox from '../../components/checkbox/Checkbox';
+import useCategorySelection from '../../hooks/useCategorySelection';
 
-function PageCatalog() {
-    const data = products;
-    const trail = usePageTrail();
-    const path = trail.slice(0, 1).join('/');
+function PageCatalog({ data, lang }) {
+    const lists = data[lang];
+    const [currentSelection, handleCheckboxChange] = useCategorySelection();
+    const allItemsCount = Object.values(lists).reduce((total, list) => total + list.length, 0);
+
+    const showText = function (lang) {
+        switch (lang) {
+            case 'nl':
+                return 'Alles tonen'
+            case 'en':
+                return 'Show all'
+            default:
+                return 'Afficher tout'
+        }
+    }
 
     return (
         <main className='page-catalog'>
-            <div className="queue-container" >
-                <Link to={'/home'}>Home</Link>
-                <span>{'>'}</span>
-                <Link to={`/${path}`}>{path}</Link>
-            </div>
+            <div className="catalog-container">
 
-            <div>
-                <h1>Nos Produits</h1>
-            </div>
+                <div className='products-dashboard'>
 
-            <div className="product-grid">
-                {Object.entries(data).map(([category, articles]) => (
-                    Object.entries(articles).map(([key, product]) => (
-                        <ProductCard key={key} product={product} categ={category} article={key} />
-                    ))
-                ))}
+                    <aside className="product-menu">
+                        <h2>Categories</h2>
+
+                        <ul>
+                            <li key="all">
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value={"all"}
+                                        checked={currentSelection === 'all'}
+                                        onChange={() => handleCheckboxChange('all')}
+                                    />
+                                    {showText(lang)}
+                                </label>
+                                <span>{allItemsCount}</span>
+                            </li>
+                            {Object.entries(lists).map(([list, index]) => (
+                                <li key={list}>
+                                    {<Checkbox
+                                        category={list}
+                                        handleCheckboxChange={handleCheckboxChange}
+                                        isChecked={currentSelection === list}
+                                    />}
+                                    <span>{index.length}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </aside>
+
+                    <div className="product-grid">
+
+                        <h1>Nos Produits</h1>
+
+                        <div>
+                            {currentSelection === 'all'
+                                ? Object.entries(lists).flatMap(([key, list]) => (
+                                    list.map((product) => (
+                                        <ProductCard product={product} key={product.id} />
+                                    ))
+                                ))
+                                : lists[currentSelection].map((product) => (
+                                    <ProductCard product={product} key={product.id} />
+                                ))
+                            }
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
         </main>
     )

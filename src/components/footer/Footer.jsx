@@ -13,8 +13,8 @@ function Footer({ data, lang }) {
             <section className="footer-section">
                 <div className="footer-logo-container">
                     <Link to={'/home'} rel='noopener noreferrer'>
-                        <img src={'/public/logo.svg'} alt="Logo" className='footer-logo' />
-                        <img src={'/public/logo-title.svg'} alt="Logo Title" className='footer-logo-title' />
+                        <img src={'/logo.svg'} alt="Logo" className='footer-logo' />
+                        <img src={'/logo-title.svg'} alt="Logo Title" className='footer-logo-title' />
                     </Link>
                 </div>
 

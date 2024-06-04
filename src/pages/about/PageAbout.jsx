@@ -2,7 +2,7 @@ import React from 'react';
 import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
 
-export function PageAbout({ data, lang }) {
+export default function PageAbout({ data, lang }) {
     const trail = usePageTrail();
     const path = trail.slice(0, 1).join('/');
 
