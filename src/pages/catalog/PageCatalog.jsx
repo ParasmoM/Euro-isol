@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Checkbox from '../../components/checkbox/Checkbox';
 import useCategorySelection from '../../hooks/useCategorySelection';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import useTitle from '../../hooks/useTitle';
 
 function PageCatalog({ data, lang }) {
     const lists = data[lang];
@@ -22,6 +23,8 @@ function PageCatalog({ data, lang }) {
                 return 'Afficher tout'
         }
     }
+
+    useTitle("Euro-Isol", lang);
 
     return (
         <main className='page-catalog'>

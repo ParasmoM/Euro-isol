@@ -7,9 +7,14 @@
     a {
         font-weight: 700;
         color: var(--clr-theme1);
+        text-transform: capitalize;
     }
 
     svg {
         color: var(--clr-black);
+    }
+
+    span {
+        text-transform: capitalize;
     }
 }

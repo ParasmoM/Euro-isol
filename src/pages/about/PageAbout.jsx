@@ -2,10 +2,12 @@ import React from 'react';
 import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import useTitle from '../../hooks/useTitle';
 
 export default function PageAbout({ data, lang }) {
     const trail = usePageTrail();
     const path = trail.slice(0, 1).join('/');
+    useTitle("Euro-Isol", lang);
 
     return (
         <main className='page-about'>

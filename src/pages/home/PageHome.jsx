@@ -3,8 +3,11 @@ import LandingSpot from './partials/LandingSpot'
 import WhyChooseUs from './partials/WhyChooseUs'
 import AboutUs from './partials/AboutUs'
 import ContactInformation from './partials/ContactInformation'
+import useTitle from '../../hooks/useTitle'
 
 function PageHome({ data, lang }) {
+    useTitle("Euro-Isol", lang);
+
     return (
         <main className='page-home'>
 

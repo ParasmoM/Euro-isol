@@ -1,5 +1,6 @@
 import React from 'react'
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import useTitle from '../../hooks/useTitle';
 
 function pageLegal({ data, lang }) {
     const titles = {
@@ -10,6 +11,8 @@ function pageLegal({ data, lang }) {
 
     const title = titles[lang];
     const content = data[lang];
+
+    useTitle("Euro-Isol", lang);
 
     return (
         <main className="page-legal">

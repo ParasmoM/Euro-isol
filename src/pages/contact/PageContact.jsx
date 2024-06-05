@@ -2,8 +2,11 @@ import React from 'react'
 import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import useTitle from '../../hooks/useTitle';
 
-function PageContact() {
+function PageContact({ lang }) {
+    useTitle("Euro-Isol", lang);
+
     return (
         <main className='page-contact'>
             <div className="page-contact-container">

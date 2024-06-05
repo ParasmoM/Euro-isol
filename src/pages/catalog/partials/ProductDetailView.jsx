@@ -1,17 +1,23 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { getImagePath } from '../../../utils/getImagePath.js';
+import Breadcrumb from '../../../components/breadcrumb/Breadcrumb.jsx';
+import useTitle from '../../../hooks/useTitle.js';
 
 function ProductDetailView({ data, lang }) {
     const location = useLocation();
     const { categ, itemId } = location.state || {};
     const item = data[lang][categ].filter(item => item.id === itemId)[0];
     const imagePath = getImagePath(item["image"]);
-    console.log(item, item.image);
+
+    useTitle("Euro-Isol", lang);
 
     return (
         <main className="product-detail">
             <div className="product-detail-container">
+
+                <Breadcrumb lang={lang} >{item.title}</Breadcrumb>
+
                 <div className="product-detail__main-content">
 
                     <div className="product-detail__images-section">
