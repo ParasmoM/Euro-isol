@@ -1,6 +1,7 @@
 import React from 'react';
 import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 export default function PageAbout({ data, lang }) {
     const trail = usePageTrail();
@@ -9,11 +10,7 @@ export default function PageAbout({ data, lang }) {
     return (
         <main className='page-about'>
             <div className="page-about-container">
-                <div className="queue-container" >
-                    <Link to={'/home'}>Home</Link>
-                    <span>{'>'}</span>
-                    <Link to={`/${path}`}>{path}</Link>
-                </div>
+                <Breadcrumb lang={lang} />
 
                 <h1>{data[lang]["mainTitle"]}</h1>
 

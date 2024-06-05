@@ -1,0 +1,15 @@
+.queue-container {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    a {
+        font-weight: 700;
+        color: var(--clr-theme1);
+    }
+
+    svg {
+        color: var(--clr-black);
+    }
+}

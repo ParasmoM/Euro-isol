@@ -3,7 +3,12 @@
 .page-contact {
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(#F5F6F8, #E6E8EC);
-    padding: 12rem 6rem;
+    
+    &-container {
+        @extend %page-container;
+        
+        padding: 12rem 6rem;
+    }
 
     .contact-form-title {
         margin-bottom: 6rem;

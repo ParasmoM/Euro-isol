@@ -1,4 +1,5 @@
 import React from 'react'
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 function pageLegal({ data, lang }) {
     const titles = {
@@ -13,7 +14,8 @@ function pageLegal({ data, lang }) {
     return (
         <main className="page-legal">
             <div className="container">
-
+                <Breadcrumb lang={lang} />
+                
                 <h1>{title}</h1>
 
                 {content.map((value, index) => (

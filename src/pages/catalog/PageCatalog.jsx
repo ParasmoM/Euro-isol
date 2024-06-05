@@ -5,6 +5,7 @@ import usePageTrail from '../../hooks/usePageTrail';
 import { Link } from 'react-router-dom';
 import Checkbox from '../../components/checkbox/Checkbox';
 import useCategorySelection from '../../hooks/useCategorySelection';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 function PageCatalog({ data, lang }) {
     const lists = data[lang];
@@ -25,7 +26,7 @@ function PageCatalog({ data, lang }) {
     return (
         <main className='page-catalog'>
             <div className="catalog-container">
-
+                <Breadcrumb lang={lang} />
                 <div className='products-dashboard'>
 
                     <aside className="product-menu">

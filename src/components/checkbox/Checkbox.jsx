@@ -26,7 +26,7 @@ const getName = (lang, children) => {
             return "insulations";
         }
     }
-    return children; // fallback in case none of the conditions match
+    return children; 
 };
 
 const Checkbox = ({ handleCheckboxChange, isChecked, lang, category }) => (    
