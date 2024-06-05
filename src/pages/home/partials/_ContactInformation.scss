@@ -2,6 +2,8 @@
 
 .contact-information {
     &-container {
+        @extend %page-container;
+        
         padding: 12rem 6rem;
     }
 

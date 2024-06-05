@@ -1,61 +1,57 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-import products from "../../../data/products.json";
 import { getImagePath } from '../../../utils/getImagePath.js';
 
-function ProductDetailView() {
+function ProductDetailView({ data, lang }) {
     const location = useLocation();
-    const { categ, article } = location.state || {};
-    const data = products[categ][article];
-    const imagePath = getImagePath(data.details.gallery[0]);
-
-    const galleryPath = data.details.gallery.map(item => getImagePath(item));
-    console.log(galleryPath);
+    const { categ, itemId } = location.state || {};
+    const item = data[lang][categ].filter(item => item.id === itemId)[0];
+    const imagePath = getImagePath(item["image"]);
+    console.log(item, item.image);
 
     return (
         <main className="product-detail">
-            <div className="product-detail__queue-container">
+            <div className="product-detail-container">
+                <div className="product-detail__main-content">
 
-            </div>
+                    <div className="product-detail__images-section">
+                        <div className="product-detail__main-image">
 
-            <div className="product-detail__main-content">
-                <div className="product-detail__images-section">
-                    <div className="product-detail__main-image">
-                        <img src={imagePath} alt="" />
+                            <img src={imagePath} alt="" />
+
+                        </div>
                     </div>
 
-                    {/* <div className="product-detail__thumbnail-gallery">
-                        {galleryPath.map((item, index) => (
-                            item !== imagePath && (
-                                <div className="product-detail__thumbnail-item" key={index}>
-                                    <img src={item} alt={`Thumbnail ${index + 1}`} />
-                                </div>
+                    <div className="product-detail__info-section">
+
+                        <h1 className="product-detail__title">{item.details.title}</h1>
+
+
+                        {item.details.text.map((paragraph, index) => (
+                                <p className="product-detail__description" key={index}>{paragraph}</p>
+                            ))
+                        }
+
+
+                        {item.details.characteristic && (
+                                <ul className="product-detail__features-list">
+                                    {item.details.characteristic.map((item, index) => (
+
+                                        <li
+                                            className="product-detail__feature-item"
+                                            key={index}
+                                        >
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
                             )
-                        ))}
-                    </div> */}
-                </div>
+                        }
 
-                <div className="product-detail__info-section">
-                    <h1 className="product-detail__title">{data.details.title}</h1>
-
-                    <p className="product-detail__description">
-                        {data.details.text}
-                    </p>
-
-                    {
-                        data.details.characteristic && (
-                            <ul className="product-detail__features-list">
-                                {data.details.characteristic.map((item, index) => (
-                                    <li
-                                        className="product-detail__feature-item"
-                                        key={index}
-                                    >
-                                        {item}
-                                    </li>
-                                ))}
-                            </ul>
-                        )
-                    }
+                        <div className='product-detail__price'>
+                            <span>{item.price}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

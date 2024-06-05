@@ -50,6 +50,7 @@ function PageCatalog({ data, lang }) {
                                         category={list}
                                         handleCheckboxChange={handleCheckboxChange}
                                         isChecked={currentSelection === list}
+                                        lang={lang}
                                     />}
                                     <span>{index.length}</span>
                                 </li>
@@ -65,11 +66,11 @@ function PageCatalog({ data, lang }) {
                             {currentSelection === 'all'
                                 ? Object.entries(lists).flatMap(([key, list]) => (
                                     list.map((product) => (
-                                        <ProductCard product={product} key={product.id} />
+                                        <ProductCard product={product} key={product.id} categ={key} />
                                     ))
                                 ))
                                 : lists[currentSelection].map((product) => (
-                                    <ProductCard product={product} key={product.id} />
+                                    <ProductCard product={product} key={product.id} categ={currentSelection} />
                                 ))
                             }
                         </div>

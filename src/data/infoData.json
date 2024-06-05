@@ -546,7 +546,7 @@
             "crepis": [
                 {
                     "id": "crepis-0",
-                    "brand": "Bitex",
+                    "brand": "Bitexfr",
                     "title": "Crepi blanc 25kg - 1,5mm",
                     "description": "",
                     "price": "undefined",
@@ -554,16 +554,16 @@
                     "image": "BITEX-crepi-blanc.png",
                     "category": "Crepi",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "title": "FR - Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-crepi-blanc.png"
                         ]
                     }
                 },
@@ -578,15 +578,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "Betonkontakt 15kg"
                         ]
                     }
                 },
@@ -601,15 +601,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Ega-Farbe.png"
                         ]
                     }
                 },
@@ -624,15 +624,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Grundierfarbe.png"
                         ]
                     }
                 }
@@ -649,15 +649,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-Orbistyro.png"
                         ]
                     }
                 },
@@ -672,15 +672,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-200.png"
                         ]
                     }
                 },
@@ -695,15 +695,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-400.png"
                         ]
                     }
                 }
@@ -713,10 +713,10 @@
             ]
         },
         "nl": {
-            "pleisterwerk": [
+            "crepis": [
                 {
                     "id": "crepis-0",
-                    "brand": "Bitex",
+                    "brand": "Bitexnl",
                     "title": "Crepi blanc 25kg - 1,5mm",
                     "description": "",
                     "price": "undefined",
@@ -724,16 +724,16 @@
                     "image": "BITEX-crepi-blanc.png",
                     "category": "Crepi",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "title": "NL - Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-crepi-blanc.png"
                         ]
                     }
                 },
@@ -748,15 +748,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "Betonkontakt 15kg"
                         ]
                     }
                 },
@@ -771,15 +771,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Ega-Farbe.png"
                         ]
                     }
                 },
@@ -794,20 +794,20 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Grundierfarbe.png"
                         ]
                     }
                 }
             ],
-            "lijmen": [
+            "colles": [
                 {
                     "id": "colles-0",
                     "brand": "Gemix",
@@ -819,15 +819,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-Orbistyro.png"
                         ]
                     }
                 },
@@ -842,15 +842,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-200.png"
                         ]
                     }
                 },
@@ -865,28 +865,28 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-400.png"
                         ]
                     }
                 }
             ],
-            "isolaties": [
+            "isolations": [
                 
             ]
         },
         "en": {
-            "plasters": [
+            "crepis": [
                 {
                     "id": "crepis-0",
-                    "brand": "Bitex",
+                    "brand": "Bitexen",
                     "title": "Crepi blanc 25kg - 1,5mm",
                     "description": "",
                     "price": "undefined",
@@ -894,16 +894,16 @@
                     "image": "BITEX-crepi-blanc.png",
                     "category": "Crepi",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "title": "EN - Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-crepi-blanc.png"
                         ]
                     }
                 },
@@ -918,15 +918,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "Betonkontakt 15kg"
                         ]
                     }
                 },
@@ -941,15 +941,15 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Ega-Farbe.png"
                         ]
                     }
                 },
@@ -964,20 +964,20 @@
                     "category": "Crepi",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "BITEX-Grundierfarbe.png"
                         ]
                     }
                 }
             ],
-            "adhesives": [
+            "colles": [
                 {
                     "id": "colles-0",
                     "brand": "Gemix",
@@ -989,15 +989,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-Orbistyro.png"
                         ]
                     }
                 },
@@ -1012,15 +1012,15 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-200.png"
                         ]
                     }
                 },
@@ -1035,22 +1035,23 @@
                     "category": "Colle",
                     "details": {
                         "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                        "text": [
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
+                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                        ],
                         "characteristic": [
                             "inventore odio molestias",
                             "tenetur ipsa",
                             "consectetur",
                             "reprehenderit"
-                        ],
-                        "gallery": [
-                            "GEMIX-GT-400.png"
                         ]
                     }
                 }
             ],
-            "Insulations": [
+            "isolations": [
                 
             ]
         }
+        
     }
 }

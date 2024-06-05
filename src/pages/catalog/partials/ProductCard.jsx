@@ -2,13 +2,13 @@ import React from 'react'
 import { getImagePath } from '../../../utils/getImagePath.js';
 import { Link } from 'react-router-dom';
 
-function ProductCard({ product, categ, article }) {
+function ProductCard({ product, categ }) {
     const imagePath = getImagePath(product.image);
-    
+    console.log(categ)
     return (
         <Link 
             to="/detail" 
-            state={{ categ: categ, article: article }}
+            state={{ categ: categ, itemId: product.id }}
             className="product-card"
         >
             <div className="product-card-image">

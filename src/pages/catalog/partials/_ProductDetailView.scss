@@ -1,14 +1,19 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
 .product-detail {
     font-family: "Open Sans", sans-serif;
-    background: linear-gradient(#F5F6F8, #E6E8EC);
-    padding: 10rem 6rem 12rem;
+    background-color: var(--clr-white);
+    
 
+    &-container {
+        @extend %page-container; 
+
+        padding: 10rem 6rem 12rem;
+    }
     &__main-content {
         display: flex;
         gap: 6rem;
-        background-color: var(--clr-white);
         border-radius: 2rem;
-        padding: 6rem;
     }
 
     &__images-section {
@@ -38,10 +43,16 @@
 
     &__info-section {
         flex-basis: 55%;
+        line-height: 1.8;
 
         .product-detail__title {
             color: var(--clr-black);
             margin-bottom: 6rem;
+        }
+
+        .product-detail__description:not(:last-of-type) {
+            text-align: justify;
+            margin-bottom: 1.5rem;
         }
 
         .product-detail__features-list {
@@ -49,5 +60,25 @@
             margin-left: 3rem;
             list-style: disc outside none;
         }
+
+        .product-detail__price {
+            --d: 6rem;
+            border-top: solid 1px #CDD3D9;
+            margin-top: var(--d);
+            padding-top: var(--d);
+
+            span { 
+                display: block;
+                width: fit-content;
+                font-size: 2.4rem;
+                color: var(--clr-theme1);
+                font-weight: 700;
+                margin-left: auto;
+            }
+        }
     }
+}
+
+.product-detail ~ .footer {
+    background: linear-gradient(#F5F6F8, #E6E8EC);
 }

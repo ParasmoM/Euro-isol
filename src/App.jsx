@@ -30,7 +30,7 @@ function AppContent({ data }) {
         { path: '/contact', element: <PageContact /> },
         { path: '/catalog', element: <PageCatalog data={data["pageCatalog"]} lang={currentLang} /> },
         { path: '/about', element: <PageAbout data={data["pageAbout"]} lang={currentLang} /> },
-        { path: '/detail', element: <ProductDetailView /> },
+        { path: '/detail', element: <ProductDetailView data={data["pageCatalog"]} lang={currentLang} /> },
         { path: '/legal-notice', element: <PageLegal data={data["legalNotice"]} lang={currentLang} /> },
     ];
 

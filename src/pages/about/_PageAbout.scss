@@ -1,7 +1,14 @@
+@use "/src/assets/styles/scss/abstracts" as *;
+
 .page-about {
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(#F5F6F8, #E6E8EC);
-    padding: 10rem 6rem 12rem;
+    
+    &-container {
+        @extend %page-container;
+        
+        padding: 10rem 6rem 12rem;
+    }
 
     h1,
     h2 {

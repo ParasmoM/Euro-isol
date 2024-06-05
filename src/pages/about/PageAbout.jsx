@@ -8,21 +8,23 @@ export default function PageAbout({ data, lang }) {
 
     return (
         <main className='page-about'>
-            <div className="queue-container" >
-                <Link to={'/home'}>Home</Link>
-                <span>{'>'}</span>
-                <Link to={`/${path}`}>{path}</Link>
-            </div>
-
-            <h1>{data[lang]["mainTitle"]}</h1>
-
-            {data[lang]["sections"].map((article, index) => (
-                <div className="about-section" key={index}>
-                    <h2 className="section-title">{article.subTitle}</h2>
-
-                    <p className="section-description">{article.description}</p>
+            <div className="page-about-container">
+                <div className="queue-container" >
+                    <Link to={'/home'}>Home</Link>
+                    <span>{'>'}</span>
+                    <Link to={`/${path}`}>{path}</Link>
                 </div>
-            ))}
+
+                <h1>{data[lang]["mainTitle"]}</h1>
+
+                {data[lang]["sections"].map((article, index) => (
+                    <div className="about-section" key={index}>
+                        <h2 className="section-title">{article.subTitle}</h2>
+
+                        <p className="section-description">{article.description}</p>
+                    </div>
+                ))}
+            </div>
         </main>
     );
 }
