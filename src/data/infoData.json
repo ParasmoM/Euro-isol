@@ -1,7 +1,7 @@
 {
     "info": {
         "address": "Rue du Tilleul 254",
-        "email": "adressemail@crépis.be",
+        "email": "Contact.euro.isol@gmail.com",
         "phone": "0434 345 657"
     },
     "header": {
@@ -708,9 +708,7 @@
                     }
                 }
             ],
-            "isolations": [
-                
-            ]
+            "isolations": []
         },
         "nl": {
             "crepis": [
@@ -878,9 +876,7 @@
                     }
                 }
             ],
-            "isolations": [
-                
-            ]
+            "isolations": []
         },
         "en": {
             "crepis": [
@@ -1048,10 +1044,48 @@
                     }
                 }
             ],
-            "isolations": [
-                
-            ]
+            "isolations": []
         }
-        
+    },
+    "pageContact": {
+        "fr": {
+            "title": "Nous contacter",
+            "label": {
+                "firstName": "Prénom",
+                "lastName": "Nom",
+                "email": "Adresse e-mail",
+                "phone": "Numéro de téléphone",
+                "subject": "Sujet",
+                "message": "Message"
+            },
+            "paragraph": "Votre projet est unique, et nous sommes là pour le réaliser avec vous. Laissez-nous quelques mots sur vos besoins en crépis, travaux de construction ou produits, et nous vous contacterons pour créer une solution sur mesure qui dépasse vos attentes.",
+            "button": "Envoyer"
+        },
+        "nl": {
+            "title": "Contacteer ons",
+            "label": {
+                "firstName": "Voornaam",
+                "lastName": "Achternaam",
+                "email": "E-mailadres",
+                "phone": "Telefoonnummer",
+                "subject": "Onderwerp",
+                "message": "Bericht"
+            },
+            "paragraph": "Uw project is uniek, en wij zijn er om het samen met u te realiseren. Laat ons een paar woorden achter over uw behoeften op het gebied van pleisterwerk, bouwwerkzaamheden of producten, en wij nemen contact met u op om een op maat gemaakte oplossing te creëren die uw verwachtingen overtreft.",
+            "button": "Verzenden"
+        },
+        "en": {
+            "title": "Contact Us",
+            "label": {
+                "firstName": "First name",
+                "lastName": "Last name",
+                "email": "Email address",
+                "phone": "Phone number",
+                "subject": "Subject",
+                "message": "Message"
+            },
+            "paragraph": "Your project is unique, and we are here to bring it to life with you. Leave us a few words about your needs in plastering, construction work, or products, and we will contact you to create a tailor-made solution that exceeds your expectations.",
+            "button": "Send"
+        }
     }
 }

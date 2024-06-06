@@ -27,7 +27,7 @@ function AppContent({ data }) {
     const routes = [
         { path: '/', element: <PageHome data={data["pageHome"]} lang={currentLang} /> },
         { path: '/home', element: <PageHome data={data["pageHome"]} lang={currentLang} /> },
-        { path: '/contact', element: <PageContact lang={currentLang} /> },
+        { path: '/contact', element: <PageContact data={data["pageContact"]} lang={currentLang} /> },
         { path: '/catalog', element: <PageCatalog data={data["pageCatalog"]} lang={currentLang} /> },
         { path: '/about', element: <PageAbout data={data["pageAbout"]} lang={currentLang} /> },
         { path: '/detail', element: <ProductDetailView data={data["pageCatalog"]} lang={currentLang} /> },

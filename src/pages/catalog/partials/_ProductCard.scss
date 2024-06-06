@@ -1,14 +1,13 @@
 .product-card {
     background-color: var(--clr-white);
-    max-width: 30rem;
+    max-width: 29rem;
     width: 100%;
     border-radius: 1rem;
     padding: 1.5rem;
     font-size: 1.4rem;
 
     &-image {
-        height: 30rem;
-        width: 100%;
+        aspect-ratio: 1/1;
         border: solid 1px #EEF0F4;
         border-radius: 1rem;
         margin-bottom: 3rem;
