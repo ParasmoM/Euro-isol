@@ -1,12 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import dataBase from "../../../data/infoData"
+import useWindowSize from '../../../hooks/useWindowSize'
 
 function ContactInformation({ data, lang }) {
     const info = dataBase["info"];
+    const { width } = useWindowSize();
+    const breakpoint = 1024;
+
+    const map = <div className="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1104.6481028990022!2d5.185105687833245!3d50.541955428307624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1a8403ea117db%3A0x7cad58768c280a51!2sRue%20du%20Tilleul%20254%2C%204520%20Wanze!5e0!3m2!1sfr!2sbe!4v1717265427288!5m2!1sfr!2sbe"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
 
     return (
         <div className="contact-information-container">
+
             <div className="contact-information-content">
                 <div className="contact-header">
                     <h1 className="contact-title">{data[lang]["sectionTitle"]}</h1>
@@ -49,20 +65,12 @@ function ContactInformation({ data, lang }) {
                     </div>
                 </div>
 
-                <div className="map-container">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1104.6481028990022!2d5.185105687833245!3d50.541955428307624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1a8403ea117db%3A0x7cad58768c280a51!2sRue%20du%20Tilleul%20254%2C%204520%20Wanze!5e0!3m2!1sfr!2sbe!4v1717265427288!5m2!1sfr!2sbe"
-                        width="100%"
-                        height="100%"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
+                {width >= breakpoint && map}
             </div>
 
             <Link to="/contact" className="contact-link">{data[lang]["contactButton"]}</Link>
+
+            {width <= breakpoint && map}
         </div>
     )
 }
