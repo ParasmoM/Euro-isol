@@ -12,7 +12,6 @@ function useTitle(name, lang) {
         const formattedTitle = `${capitalize(translatedPath)} - ${name}`;
 
         document.title = formattedTitle;
-        console.log(lang, path, name, formattedTitle, translatedPath);
 
         return () => {
             document.title = prevTitle;
