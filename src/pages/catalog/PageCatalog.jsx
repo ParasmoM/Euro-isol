@@ -7,11 +7,14 @@ import Checkbox from '../../components/checkbox/Checkbox';
 import useCategorySelection from '../../hooks/useCategorySelection';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import useTitle from '../../hooks/useTitle';
+import useWindowSize from '../../hooks/useWindowSize';
 
 function PageCatalog({ data, lang }) {
     const lists = data[lang];
     const [currentSelection, handleCheckboxChange] = useCategorySelection();
     const allItemsCount = Object.values(lists).reduce((total, list) => total + list.length, 0);
+    const { width } = useWindowSize();
+    const breakpoint = 1024;
 
     const showText = function (lang) {
         switch (lang) {
@@ -31,6 +34,8 @@ function PageCatalog({ data, lang }) {
             <div className="catalog-container">
                 <Breadcrumb lang={lang} />
                 <div className='products-dashboard'>
+
+                    {width <= breakpoint && <h1 className='heading'>Nos Produits</h1>}
 
                     <aside className="product-menu">
                         <h2>Categories</h2>
@@ -64,7 +69,7 @@ function PageCatalog({ data, lang }) {
 
                     <div className="product-grid">
 
-                        <h1>Nos Produits</h1>
+                        {width >= breakpoint && <h1 className='heading'>Nos Produits</h1>}
 
                         <div>
                             {currentSelection === 'all'

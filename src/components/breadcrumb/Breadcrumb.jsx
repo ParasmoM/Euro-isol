@@ -59,7 +59,7 @@ const getNameTranslate = (lang, name) => {
         }
     }
 
-    return name; // return original name if no match found
+    return name;
 };
 
 const Breadcrumb = ({ lang, children }) => {
