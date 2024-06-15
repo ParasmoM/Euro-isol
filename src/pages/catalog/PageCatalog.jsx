@@ -1,8 +1,5 @@
 import React from 'react'
-import { Loop } from '../../assets/icons/icons'
 import ProductCard from './partials/ProductCard'
-import usePageTrail from '../../hooks/usePageTrail';
-import { Link } from 'react-router-dom';
 import Checkbox from '../../components/checkbox/Checkbox';
 import useCategorySelection from '../../hooks/useCategorySelection';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';

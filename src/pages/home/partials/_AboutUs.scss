@@ -6,29 +6,39 @@
         
         padding: 6rem 2rem;
         
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
+            padding: 9rem 4rem;
             text-align: center;
-            padding: 12rem 15rem;
+        }
+        @media (min-width: 1024px) {
+            padding: 12rem 6rem;
         }
     }
 
     &-title {
         text-transform: uppercase;
+        text-align: center;
         color: var(--clr-black);
         margin-bottom: var(--spacing-lg);
-        padding-inline: 2rem;
+        font-size: 2rem;
+
+        @media (min-width: 768px) {
+            font-size: 2.4rem;
+        }
+        @media (min-width: 1024px) {
+            font-size: 2.8rem;
+        }
     }
 
     &-description {
         line-height: 2;
         margin-bottom: var(--spacing-xl);
-        padding-inline: 2rem;
     }
 
     &-link {
-        @extend %btn-primary;
+        @extend %btn-theme;
 
-        font-size: 1.8rem;
+        // font-size: 1.8rem;
         margin: auto;
     }
 }

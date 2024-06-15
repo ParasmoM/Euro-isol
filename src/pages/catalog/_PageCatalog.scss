@@ -9,6 +9,9 @@
         
         padding: 2rem 2rem 6rem                ;
 
+        @media (min-width: 768px) {
+            padding: 6rem 4rem;
+        }
         @media (min-width: 1024px) {
             padding: 12rem 6rem;
         }
@@ -21,11 +24,27 @@
             gap: 6rem;
         }
     }
+    
+    .heading {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        color: var(--clr-black);
+        margin-bottom: 4rem;
+        
+        @media (min-width: 1024px) {
+            font-size: 2.8rem;
+        }
+    }
 
     .product-menu {
-        max-width: 30rem;
+        max-width: 54rem;
         width: 100%;
         margin-bottom: 6rem;
+        
+        
+        @media (min-width: 1024px) {
+            max-width: 24.4rem;
+        }
 
         h2 {
             font-size: 2rem;
@@ -49,23 +68,12 @@
             font-weight: 600;
             text-transform: capitalize;
             margin-bottom: 2rem;
-            padding-right: 6rem;
+            // padding-right: 6rem;
         }
 
         label {
             display: flex;
             gap: 1rem;
-        }
-    }
-
-    .heading {
-        font-size: 2.8rem;
-        text-transform: uppercase;
-        color: var(--clr-black);
-        margin-bottom: 6rem;
-        
-        @media (min-width: 1024px) {
-            font-size: 3.2rem;
         }
     }
 

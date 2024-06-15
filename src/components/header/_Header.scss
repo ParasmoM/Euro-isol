@@ -10,8 +10,14 @@
 
         padding: 2rem;
 
+        // @media (min-width: 1024px) {
+        //     padding: 3rem 6rem;
+        // }
+        @media (min-width: 768px) {
+            padding: 4rem;
+        }
         @media (min-width: 1024px) {
-            padding: 3rem 6rem;
+            padding: 4rem 6rem;
         }
     }
 
@@ -154,14 +160,14 @@
 
     .hamburger-btn {
         display: flex;
-        gap: 0.35rem;
+        gap: 0.6rem;
         flex-direction: column;
         justify-content: center;
-        padding: 0.5rem;
+        padding: 1rem;
         background-color: var(--clr-theme1);
         border-radius: 0.5rem;
-        height: 3rem;
-        width: 3rem;
+        height: 4.5rem;
+        width: 4.5rem;
         overflow: hidden;
 
         @media (min-width: 1024px) {
@@ -170,7 +176,7 @@
 
         .line {
             background-color: var(--clr-white);
-            height: 0.2rem;
+            height: 0.4rem;
             width: 100%;
             border-radius: 1rem;
             transition: all 0.3s ease-in-out;

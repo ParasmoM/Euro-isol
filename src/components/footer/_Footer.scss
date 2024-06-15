@@ -3,117 +3,166 @@
 .footer {
     background-color: var(--clr-white);
     font-family: "Open Sans", sans-serif;
-    
-    &-container {
+
+    &__container {
         @extend %page-container;
     }
-    
-    &-section {
+
+    &__section {
         display: flex;
         flex-direction: column;
         gap: 3rem;
         padding: 6rem 2rem 3rem;
-        
-        @media (min-width: 1024px) {
+
+        @media (min-width: 768px) {
+            padding-inline: 4rem;
+        }
+        @media (min-width: 900px) {
             flex-direction: row;
+            gap: 6rem;
+                width: 100%;
+        }
+        @media (min-width: 1024px) {
             gap: 10rem;
             padding: 6rem 18rem 3rem;
         }
+    }
 
-        .footer-utils,
-        .footer-info {
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 3rem;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 0px;
+        }
+
+        img:first-child {
+            height: 6rem;
+            margin: 0 auto 3rem;
+        }
+
+        img:last-child {
+            height: 3.5rem;
+            margin: auto;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        @media (min-width: 540px) {
+            flex-direction: row;
+            gap: 6rem;
+        }
+        @media (min-width: 900px) {
+            flex: auto;
+        }
+    }
+
+    &__extras {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        @media (min-width: 900px) {
+            flex-direction: row;
+            gap: 6rem;
+        }
+    }
+
+    &__info {
+        @media (min-width: 540px) {
+            flex-basis: 65%;
+        }
+        @media (min-width: 900px) {
             flex: 1;
-
-            > div {
-                width: fit-content;
-                
-                @media (min-width: 1024px) {
-                    margin: auto;
-                }
-            }
-
-            h2 {
-                color: var(--clr-black);
-                padding-bottom: 2rem;
-                font-size: 1.6rem;
-            }
         }
-        .footer-info {
-            display: flex;
-            flex-direction: column;
+    }
 
-            li {
-                margin-bottom: 1rem;
-            }
-
-            h3 {
-                font-size: 1.26rem;
-                color: var(--clr-black);
-            }
-
-            p {
-                font-size: 1.26rem;
-            }
+    &__extras {
+        @media (min-width: 540px) {
+            flex-basis: 35%;
         }
-        .footer-utils ul {
+        @media (min-width: 900px) {
+            flex: 1;
+        }
+    }
+
+    &__info,
+    &__utilities {
+        flex: 1;
+
+        .heading {
+            color: var(--clr-black);
+            padding-bottom: 2rem;
+            font-size: 1.6rem;
+        }
+
+        &-list {
             display: flex;
             flex-direction: column;
             font-size: 1.26rem;
 
             li {
                 margin-bottom: 1rem;
+            }
+
+            &-item {
+                margin-bottom: 1rem;
                 transition: all .3s ease-in;
-            }
-            li:hover {
-                color: var(--clr-theme1);
-                // font-weight: 700;
-            }
-        }
+                text-wrap: nowrap;
 
-        .footer-logo-container {
-            display: flex;
-            flex-direction: column;
-            gap: 3rem;
-            margin-bottom: 3rem;
-
-            @media (min-width: 1024px) {
-                margin-bottom: 0px;
-            }
-
-            img:first-child {
-                height: 6rem;
-                margin: 0 auto 3rem;
-            }
-
-            img:last-child {
-                height: 3.5rem;
-                margin: auto;
+                &:hover {
+                    color: var(--clr-theme1);
+                }
             }
         }
 
-        .footer-socials {
-            display: flex;
-            gap: 2rem;
+        &-title {
+            font-size: 1.26rem;
             color: var(--clr-black);
+        }
 
+        &-description {
+            font-size: 1.26rem;
+        }
+    }
+
+    &__utilities {
+        @media (min-width: 900px) {
+            flex: auto;
+        }               
+    }
+
+    &__socials {
+        display: flex;
+        gap: 2rem;
+        color: var(--clr-black);
+
+        .footer__social-link {
             svg {
                 height: 3.5rem;
             }
         }
     }
 
-    &-copyright {
+    &__copyright {
         display: flex;
         justify-content: center;
         gap: .5rem;
         border-top: solid 1px #CDD3D9;
         font-size: 1.2rem;
         text-transform: uppercase;
-        padding: 1.5rem 6rem;
+        padding: 1.5rem 0;
 
         @media (min-width: 1024px) {
             gap: 1rem;
         }
+
         span {
             font-weight: 900;
             color: var(--clr-black);

@@ -13,7 +13,7 @@ const getNameTranslate = (lang, name) => {
             return "contact";
         }
         if (lowerName === "about") {
-            return "à propos";
+            return "à propos de nous";
         }
         if (lowerName === "catalog") {
             return "catalogue";
@@ -31,7 +31,7 @@ const getNameTranslate = (lang, name) => {
             return "contact";
         }
         if (lowerName === "about") {
-            return "over";
+            return "over ons";
         }
         if (lowerName === "catalog") {
             return "catalogus";
@@ -49,7 +49,7 @@ const getNameTranslate = (lang, name) => {
             return "contact";
         }
         if (lowerName === "about") {
-            return "about";
+            return "about us";
         }
         if (lowerName === "catalog") {
             return "catalog";
