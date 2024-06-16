@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { MaterialSymbolsArrowLeftAltRounded, MaterialSymbolsArrowRightAltRounded } from '../../../assets/icons/icons'
 import globalData from "../../../data/infoData.json";
+import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
 
 function WhyChooseUs({ data, lang }) {
     const [counter, setCounter] = useState(1);
@@ -15,6 +16,10 @@ function WhyChooseUs({ data, lang }) {
     const decrement = () => {
         setCounter((prevCounter) => (prevCounter > 1 ? prevCounter - 1 : prevCounter));
     };
+
+    useIntersectionObserver('why-choose-us-image', 'fade-in');
+    useIntersectionObserver('why-choose-us-articles', 'fade-in');
+    useIntersectionObserver('why-choose-us-pagination', 'fade-in');
     
     return <>
         <div className='why-choose-us-container'>

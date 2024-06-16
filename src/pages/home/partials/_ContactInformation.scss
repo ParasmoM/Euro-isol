@@ -40,6 +40,12 @@
         .contact-title {
             font-size: 2rem;
             margin-bottom: 3rem;
+            opacity: 0;
+            // transform: translateY(3rem);
+    
+            &.fade-in {
+                animation: fadeIn .5s ease .5s forwards;
+            }
 
             @media (min-width: 768px) {
                 font-size: 2.4rem;
@@ -63,6 +69,12 @@
             display: flex;
             gap: 3rem;
             flex-direction: column;
+            opacity: 0;
+            transform: translateY(3rem);
+    
+            &.fade-in {
+                animation: fadeIn .5s ease .5s forwards;
+            }
 
             @media (min-width: 768px) {
                 flex-direction: row;
@@ -81,7 +93,14 @@
                 gap: var(--spacing-lg);
             }
 
-            .contact-info {}
+            .office-contact {
+                opacity: 0;
+                transform: translateY(3rem);
+        
+                &.fade-in {
+                    animation: fadeIn .8s ease .5s forwards;
+                }
+            }
 
             .contact-info>div {
                 display: flex;
@@ -112,5 +131,11 @@
         @extend %btn-theme;
 
         text-align: center;
+        opacity: 0;
+        transform: translateY(3rem);
+
+        &.fade-in {
+            animation: fadeIn 1s ease .5s forwards;
+        }
     }
 }

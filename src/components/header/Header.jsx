@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../context/LanguageContext';
 import HamburgerButton from './partials/HamburgerButton';
-import { ChevronDown } from '../../assets/icons/icons';
 
 function Header({ data }) {
     const [open, setOpen] = useState(false);
@@ -35,15 +34,13 @@ function Header({ data }) {
                 </div>
             </div>
 
-            {open && (
-                <div className='nav-bar-phone'>
+            <div className={`nav-bar-phone ${open ? 'open' : ''}`}>
                     {data[lang].map((item, index) => (
                         <Link key={index} to={item.href} onClick={() => setOpen(false)}>
                             {item.title}
                         </Link>
                     ))}
                 </div>
-            )}
         </div>
     </>
 }

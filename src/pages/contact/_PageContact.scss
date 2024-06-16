@@ -3,6 +3,8 @@
 .page-contact {
     font-family: "Open Sans", sans-serif;
     background: linear-gradient(#F5F6F8, #E6E8EC);
+    opacity: 0;
+    animation: fadeIn .4s ease-in .3s forwards;
     
     &-container {
         @extend %page-container;

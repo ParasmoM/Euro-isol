@@ -23,8 +23,8 @@ function HamburgerButton({ open, setOpen, data, lang }) {
     }, [open, setOpen]);
 
     return (
-        <div className='hamburger' ref={wrapperRef}>
-            <button className='hamburger-btn' onClick={() => setOpen(!open)}>
+        <div className={`hamburger`} ref={wrapperRef}>
+            <button className={`hamburger-btn ${open ? 'open' : '' }`} onClick={() => setOpen(!open)}>
                 <div className="line line1"></div>
                 <div className="line line2"></div>
                 <div className="line line3"></div>

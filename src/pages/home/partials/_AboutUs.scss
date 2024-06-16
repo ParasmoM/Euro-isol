@@ -21,6 +21,11 @@
         color: var(--clr-black);
         margin-bottom: var(--spacing-lg);
         font-size: 2rem;
+        opacity: 0;
+
+        &.fade-in {
+            animation: fadeIn 1s ease .5s forwards;
+        }
 
         @media (min-width: 768px) {
             font-size: 2.4rem;
@@ -33,12 +38,22 @@
     &-description {
         line-height: 2;
         margin-bottom: var(--spacing-xl);
+        opacity: 0;
+
+        &.fade-in {
+            animation: fadeIn 1s ease .5s forwards;
+        }
     }
 
     &-link {
         @extend %btn-theme;
 
-        // font-size: 1.8rem;
         margin: auto;
+        opacity: 0;
+        transform: translateY(3rem);
+
+        &.fade-in {
+            animation: fadeIn 1s ease .5s forwards;
+        }
     }
 }

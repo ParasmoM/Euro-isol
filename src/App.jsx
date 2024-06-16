@@ -11,6 +11,7 @@ import Footer from './components/footer/Footer';
 import dataBase from './data/infoData.json';
 import { LanguageContext, LanguageProvider } from './context/LanguageContext';
 import PageLegal from "./pages/mention/PageLegal";
+import ScrollToTop from './hooks/ScrollToTop';
 
 function App() {
     const data = dataBase;
@@ -36,6 +37,8 @@ function AppContent({ data }) {
 
 return (
     <Router>
+        <ScrollToTop />
+        
         <header className="header">
             <Header data={data["header"]} />
         </header>

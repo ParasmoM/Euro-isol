@@ -23,6 +23,11 @@ function PageCatalog({ data, lang }) {
                 return 'Afficher tout'
         }
     }
+    const translations = {
+        fr: 'Catégories',
+        en: 'Categories',
+        nl: 'Categorieën',
+    };
 
     useTitle("Euro-Isol", lang);
 
@@ -32,27 +37,31 @@ function PageCatalog({ data, lang }) {
                 <Breadcrumb lang={lang} />
                 <div className='products-dashboard'>
 
-                    {width <= breakpoint && <h1 className='heading'>Nos Produits</h1>}
+                    {width < breakpoint && <h1 className='heading'>Nos Produits</h1>}
 
                     <aside className="product-menu">
-                        <h2>Categories</h2>
+                        <h2>{translations[lang]}</h2>
 
                         <ul>
                             <li key="all">
-                                <label>
+                                <div className="checkbox-wrapper-42">
                                     <input
+                                        id="cbx-all"
                                         type="checkbox"
                                         value={"all"}
                                         checked={currentSelection === 'all'}
                                         onChange={() => handleCheckboxChange('all')}
                                     />
-                                    {showText(lang)}
-                                </label>
+                                    <label className="cbx" htmlFor="cbx-all"></label>
+                                    <label className="lbl" htmlFor="cbx-all">{showText(lang)}</label>
+                                </div>
                                 <span>{allItemsCount}</span>
                             </li>
+
                             {Object.entries(lists).map(([list, index]) => (
                                 <li key={list}>
                                     {<Checkbox
+                                        id={`cbx-${list}`}
                                         category={list}
                                         handleCheckboxChange={handleCheckboxChange}
                                         isChecked={currentSelection === list}

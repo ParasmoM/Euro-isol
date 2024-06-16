@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
 
 function AboutUs({ data, lang }) {
+    useIntersectionObserver('about-us-title', 'fade-in');
+    useIntersectionObserver('about-us-description', 'fade-in');
+    useIntersectionObserver('about-us-link', 'fade-in');
+
     return <>
         <div className="about-us-container">
 

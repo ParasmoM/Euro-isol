@@ -3,10 +3,13 @@ import Copyright from './partials/Copyright'
 import { FacebookIcone, InstagramIcone } from '../../assets/icons/icons'
 import { Link } from 'react-router-dom'
 import InfoData from "../../data/infoData.json";
+import useIntersectionObserver from '../../hooks/useIntersectionObserver';
 
 function Footer({ data, lang }) {
     const section = data["footer"][lang];
     const info = data["info"];
+
+    useIntersectionObserver('footer__container', 'fade-in');
 
     return <div className='footer__container'>
         <section className="footer__section">

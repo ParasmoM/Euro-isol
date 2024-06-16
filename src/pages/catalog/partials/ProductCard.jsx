@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 function ProductCard({ product, categ }) {
     const imagePath = getImagePath(product.image);
-    console.log(categ)
     return (
         <Link 
             to="/detail" 
