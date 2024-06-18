@@ -5,17 +5,24 @@
     background: linear-gradient(#F5F6F8, #E6E8EC);
     opacity: 0;
     animation: fadeIn .4s ease-in .3s forwards;
-    
+
     &-container {
         @extend %page-container;
-        
-        padding: 2rem 2rem 6rem;
 
-        @media (min-width: 768px) {
-            padding: 6rem 4rem;
-        }
-        @media (min-width: 1024px) {
-            padding: 12rem 6rem;
+        background-image: url('/public/img-contact.png');
+        background-size: cover; /* Assurez-vous que l'image couvre toute la div */
+    background-position: center;
+
+        >div:last-of-type {
+            padding: 2rem 2rem 6rem;
+
+            @media (min-width: 768px) {
+                padding: 6rem 4rem;
+            }
+    
+            @media (min-width: 1024px) {
+                padding: 12rem 6rem;
+            }
         }
     }
 
@@ -24,8 +31,9 @@
         margin-bottom: 4rem;
         text-transform: uppercase;
         color: var(--clr-black);
-        
-            
+        z-index: 10;
+
+
         @media (min-width: 1024px) {
             font-size: 2.8rem;
         }
@@ -49,7 +57,9 @@
             font-size: var(--font-size-xs);
             background-color: var(--clr-white);
             padding: .8rem 1.5rem;
-            
+            color: var(--clr-black);
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
             @media (min-width: 1024px) {
                 padding: .8rem 6rem 1.6rem;
             }
@@ -71,11 +81,11 @@
         background-color: var(--clr-white);
         margin-bottom: 3rem;
         padding: .8rem 1.5rem;
-        
+
         @media (min-width: 1024px) {
             padding: .8rem 6rem 1.6rem;
         }
-        
+
         label {
             display: flex;
             flex-direction: column;
@@ -97,6 +107,7 @@
         margin-bottom: 3rem;
         font-size: 1.6rem;
         color: var(--clr-black);
+        font-weight: 600;
     }
 
     .contact-form-message {
@@ -104,9 +115,11 @@
         flex-direction: column;
         border-radius: 1rem;
         background-color: var(--clr-white);
+        color: var(--clr-black);
         margin-bottom: 3rem;
         padding: .8rem 1.5rem;
-        
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
         @media (min-width: 1024px) {
             padding: .8rem 6rem 1.6rem;
         }
@@ -115,6 +128,7 @@
             font-size: 2rem;
             border: none;
             height: 20rem;
+            width: 100%;
         }
 
         textarea:focus {
@@ -127,7 +141,7 @@
 
         border: none;
         width: 100%;
-        
+
         @media (min-width: 1024px) {
             margin-left: auto;
             width: 31rem;

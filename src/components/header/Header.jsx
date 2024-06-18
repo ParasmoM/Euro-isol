@@ -79,7 +79,9 @@ function HeaderMenu({ data, open, setOpen }) {
                         <li
                             key={lang}
                             className=''
-                            onClick={() => handleLanguageChange(lang)}
+                            onClick={() => { 
+                                handleLanguageChange(lang)
+                            }}
                         >
                             {lang.toUpperCase()}
                         </li>

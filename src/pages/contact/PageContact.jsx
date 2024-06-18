@@ -12,56 +12,58 @@ function PageContact({ data, lang }) {
     return (
         <main className='page-contact'>
             <div className="page-contact-container">
-                <Breadcrumb lang={lang} />
+                <div>
+                    <Breadcrumb lang={lang} />
 
-                <h1 className="contact-title">{content["title"]}</h1>
+                    <h1 className="contact-title">{content["title"]}</h1>
 
-                <form className="contact-form">
+                    <form className="contact-form">
 
-                    <div className="contact-form-section">
-                        <label htmlFor="first-name" className="contact-form-label">
-                            {content["label"]["firstName"]}
-                            <input type="text" id="first-name" className="contact-form-input" />
-                        </label>
+                        <div className="contact-form-section">
+                            <label htmlFor="first-name" className="contact-form-label">
+                                {content["label"]["firstName"]}
+                                <input type="text" id="first-name" className="contact-form-input" />
+                            </label>
 
-                        <label htmlFor="last-name" className="contact-form-label">
-                            {content["label"]["lastName"]}
-                            <input type="text" id="last-name" className="contact-form-input" />
-                        </label>
-                    </div>
+                            <label htmlFor="last-name" className="contact-form-label">
+                                {content["label"]["lastName"]}
+                                <input type="text" id="last-name" className="contact-form-input" />
+                            </label>
+                        </div>
 
-                    <div className="contact-form-section">
-                        <label htmlFor="email" className="contact-form-label">
-                            {content["label"]["email"]}
-                            <input type="email" id="email" className="contact-form-input" />
-                        </label>
+                        <div className="contact-form-section">
+                            <label htmlFor="email" className="contact-form-label">
+                                {content["label"]["email"]}
+                                <input type="email" id="email" className="contact-form-input" />
+                            </label>
 
-                        <label htmlFor="phone-number" className="contact-form-label">
-                            {content["label"]["phone"]}
-                            <input type="tel" id="phone-number" className="contact-form-input" />
-                        </label>
-                    </div>
+                            <label htmlFor="phone-number" className="contact-form-label">
+                                {content["label"]["phone"]}
+                                <input type="tel" id="phone-number" className="contact-form-input" />
+                            </label>
+                        </div>
 
-                    <div className="contact-form-subject">
-                        <label htmlFor="subject" className="contact-form-label">
-                        {content["label"]["subject"]}
-                            <input type="text" id="subject" className="contact-form-input" />
-                        </label>
-                    </div>
+                        {/* <div className="contact-form-subject">
+        <label htmlFor="subject" className="contact-form-label">
+        {content["label"]["subject"]}
+            <input type="text" id="subject" className="contact-form-input" />
+        </label>
+    </div> */}
 
-                    <p className="contact-form-description">
-                        {content["paragraph"]}
-                    </p>
+                        <p className="contact-form-description">
+                            {content["paragraph"]}
+                        </p>
 
-                    <div className="contact-form-message">
-                        <label htmlFor="message" className="contact-form-label">
-                            {content["label"]["message"]}
-                            <textarea name="message" id="message" className="contact-form-textarea"></textarea>
-                        </label>
-                    </div>
+                        <div className="contact-form-message">
+                            <label htmlFor="message" className="contact-form-label">
+                                {content["label"]["message"]}
+                                <textarea name="message" id="message" className="contact-form-textarea"></textarea>
+                            </label>
+                        </div>
 
-                    <input type="submit" value={`${content["button"]}`} className="contact-form-button" />
-                </form>
+                        <input type="submit" value={`${content["button"]}`} className="contact-form-button" />
+                    </form>
+                </div>
             </div>
         </main>
     )

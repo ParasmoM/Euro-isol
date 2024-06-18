@@ -17,10 +17,10 @@ function ProductCard({ product, categ }) {
             <div className="product-card-details">
                 <p className="product-card-brand">{product.brand}</p>
                 <p className="product-card-title">{product.title}</p>
-                <div className="product-card-info">
+                {/* <div className="product-card-info">
                     <span className="product-card-category">{product.category}</span>
                     <span className="product-card-price">{product.price} €</span>
-                </div>
+                </div> */}
             </div>
         </Link>
     )
