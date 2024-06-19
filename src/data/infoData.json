@@ -648,16 +648,19 @@
                     "image": "GEMIX-Orbistyro.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "Orbistyro",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Un adhésif haute performance à base de ciment, chaux, calcaire, technologie avancée des polymères et renforcé par deux types de fibres pour l'adhésion des panneaux EPS pour le système ETICS."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Facile à appliquer",
+                            "Haut rendement",
+                            "Renforcé avec des fibres PP",
+                            "Renforcé avec des fibres cellulosiques",
+                            "Technologie avancée des polymères",
+                            "Adhésif pour panneaux EPS",
+                            "Conçu pour les systèmes ETICS - Système d'Isolation Thermique par l'Extérieur avec Enduit",
+                            "Perméable à la vapeur"
                         ]
                     }
                 },
@@ -671,16 +674,16 @@
                     "image": "GEMIX-GT-200.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-200 Series 25kg",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Ciment-colle professionnel monocomposant de couleur blanche (250) et grise (200) à glissement réduit pour la pose de carreaux de céramique sur les sols et murs intérieurs. Une formule spéciale composée de ciment à haute résistance et de résines synthétiques pour améliorer l'adhérence aux surfaces à l'aide de granulats sélectionnés et d'autres additifs de performance pour améliorer l'application, la déformation et la prévention du glissement des carreaux."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Facile à appliquer",
+                            "Utilisé pour les carreaux de céramique et d'argile",
+                            "Rendement élevé",
+                            "Technologie avancée des polymères",
+                            "Adhésif de performance à base de ciment"
                         ]
                     }
                 },
@@ -694,16 +697,24 @@
                     "image": "GEMIX-GT-400.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-400 Series",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Un adhésif professionnel à composant unique à base de ciment, disponible en blanc (450) et gris (400), avec une glissance réduite et un temps ouvert prolongé pour la pose de carreaux de céramique sur les sols et murs intérieurs et extérieurs.",
+                            "Une formule spéciale composée de ciment à haute résistance et de résines synthétiques pour augmenter l'adhérence aux surfaces, utilisant des agrégats sélectionnés et d'autres additifs de performance pour améliorer l'application, la déformation et éviter le glissement des carreaux, avec un niveau d'élasticité ainsi qu'un temps ouvert prolongé."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Facile à appliquer",
+                            "Force C2 - À base de ciment",
+                            "Utilisé pour les carreaux de grès, céramique",
+                            "Utilisé pour les pierres naturelles et artificielles non sensibles",
+                            "Utilisé pour les grands et petits carreaux",
+                            "Utilisé pour les planchers chauffants",
+                            "Haut rendement",
+                            "Technologie avancée des polymères",
+                            "Adhésif pour carreaux de céramique",
+                            "Adhésif de performance",
+                            "Résistant au glissement",
+                            "Temps ouvert prolongé"
                         ]
                     }
                 }
@@ -816,16 +827,19 @@
                     "image": "GEMIX-Orbistyro.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "Orbistyro",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Een hoogwaardig prestatiekleefmiddel op basis van cement, kalk, kalksteen, geavanceerde polymeer technologie en versterkt met twee soorten vezels voor de hechting van EPS-platen voor het ETICS-systeem."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Gemakkelijk aan te brengen",
+                            "Hoge opbrengst",
+                            "Versterkt met PP vezels",
+                            "Versterkt met cellulosische vezels",
+                            "Geavanceerde polymeer technologie",
+                            "EPS-plaat kleefmiddel",
+                            "Ontworpen voor ETICS - Extern Thermisch Isolatiesysteem met samenstelling",
+                            "Ademend"
                         ]
                     }
                 },
@@ -839,16 +853,16 @@
                     "image": "GEMIX-GT-200.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-200 Series 25kg",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Professionele enkelcomponent cementlijm in witte (250) en grijze (200) kleur met verminderde slip voor het leggen van keramische tegels op binnenvloeren en muren. Een speciale formule bestaande uit cement met hoge weerstand en synthetische harsen om de hechting aan oppervlakken te verbeteren met geselecteerde aggregaten en andere prestatieadditieven om de toepassing, vervorming en het voorkomen van het slippen van tegels te verbeteren."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Gemakkelijk aan te brengen",
+                            "Gebruikt voor keramische en kleitegels",
+                            "Hoge opbrengst",
+                            "Geavanceerde polymeer technologie",
+                            "Prestatie kleefstof op basis van cement"
                         ]
                     }
                 },
@@ -862,16 +876,24 @@
                     "image": "GEMIX-GT-400.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-400 Series",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Een enkel component professioneel cementgebaseerd kleefmiddel in witte (450) en grijze (400) optie met verminderde slip en verlengde open tijd voor het leggen van keramische tegels op binnen- en buitenvloeren en muren.",
+                            "Een speciale formule bestaande uit cement van hoge weerstand en synthetische harsen om de hechting op oppervlakken te verbeteren met geselecteerde aggregaten en andere prestatie-additieven om de toepassing, vervorming en het voorkomen van het slippen van tegels te verbeteren, evenals een mate van elasticiteit en verlengde open tijd."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Gemakkelijk aan te brengen",
+                            "C2 Sterkte - Cementgebaseerd",
+                            "Gebruikt voor gres, keramische tegels",
+                            "Gebruikt voor niet-gevoelige natuurlijke en kunstmatige stenen",
+                            "Gebruikt voor grote en kleine tegels",
+                            "Gebruikt voor vloerverwarming",
+                            "Hoge opbrengst",
+                            "Geavanceerde polymeer technologie",
+                            "Keramische tegels kleefmiddel",
+                            "Prestatie kleefmiddel",
+                            "Slipbestendig",
+                            "Verlengde open tijd"
                         ]
                     }
                 }
@@ -890,16 +912,19 @@
                     "image": "BITEX-crepi-blanc.png",
                     "category": "Crepi",
                     "details": {
-                        "title": "EN - Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "Orbistyro",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "A great performance adhesive based on cement, lime, limestone, advanced polymer technology, and reinforced with two types of fibers for adhesion of EPS boards for the ETICS system."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Easy to apply",
+                            "High yield",
+                            "PP Fiber reinforced",
+                            "Cellulosic Fiber reinforced",
+                            "Advanced Polymer technology",
+                            "EPS Board Adhesive",
+                            "Designed for ETICS - External Thermal Insulation Composite System",
+                            "Breathable"
                         ]
                     }
                 },
@@ -984,16 +1009,19 @@
                     "image": "GEMIX-Orbistyro.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "Orbistyro",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "A high-performance adhesive based on cement, lime, limestone, advanced polymer technology, and reinforced with two types of fibers for the adhesion of EPS boards for the ETICS system."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Easy to apply",
+                            "High yield",
+                            "Reinforced with PP fibers",
+                            "Reinforced with cellulosic fibers",
+                            "Advanced polymer technology",
+                            "EPS board adhesive",
+                            "Designed for ETICS - External Thermal Insulation Composite System",
+                            "Breathable"
                         ]
                     }
                 },
@@ -1007,16 +1035,16 @@
                     "image": "GEMIX-GT-200.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-200 Series 25kg",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "Professional single-component cement adhesive in white (250) and gray (200) color with reduced slip for laying ceramic tiles on interior floors and walls. A special formula consisting of high-strength cement and synthetic resins to improve adhesion to surfaces using selected aggregates and other performance additives to enhance application, deformation, and prevention of tile slippage."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Easy to apply",
+                            "Used for ceramic and clay tiles",
+                            "High yield",
+                            "Advanced polymer technology",
+                            "Cement-based performance adhesive"
                         ]
                     }
                 },
@@ -1030,16 +1058,24 @@
                     "image": "GEMIX-GT-400.png",
                     "category": "Colle",
                     "details": {
-                        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                        "title": "GT-400 Series",
                         "text": [
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt modi reprehenderit ad possimus labore impedit inventore odio molestias minus, consectetur tenetur ipsa sunt voluptas blanditiis maxime ipsum vero et.",
-                            "At present, our website does not use any cookies to collect personal information or track the activities of our visitors. We are committed to respecting your privacy and ensuring a transparent and secure experience while browsing our site."
+                            "A single component professional cement-based adhesive in white (450) and gray (400) option with reduced slip and extended open time for laying ceramic tiles on interior and exterior floors and walls.",
+                            "A special formula consisting of high resistance cement and synthetic resins to increase adherence to surfaces using selected aggregates and other performance additives to improve the application, deformation, and avoiding slipping of tiles and with a level of elasticity as well as extended open time."
                         ],
                         "characteristic": [
-                            "inventore odio molestias",
-                            "tenetur ipsa",
-                            "consectetur",
-                            "reprehenderit"
+                            "Easy to apply",
+                            "C2 Strength - Cement-based",
+                            "Used for gres, ceramic tiles",
+                            "Used for non-sensitive natural and artificial stones",
+                            "Used for large and small tiles",
+                            "Used for heated floors",
+                            "High yield",
+                            "Advanced polymer technology",
+                            "Ceramic tiles adhesive",
+                            "Performance adhesive",
+                            "Slip resistant",
+                            "Extended open time"
                         ]
                     }
                 }
@@ -1086,6 +1122,884 @@
             },
             "paragraph": "Your project is unique, and we are here to bring it to life with you. Leave us a few words about your needs in plastering, construction work, or products, and we will contact you to create a tailor-made solution that exceeds your expectations.",
             "button": "Send"
+        }
+    },
+    "products": {
+        "fr": {
+            "adhesives": [
+                {
+                    "id": "GEMIX_GT200_001",
+                    "name": "GT-200 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-200.png",
+                    "datasheets": {
+                        "title": "GT-200 Series",
+                        "description": [
+                            "Ciment-colle professionnel monocomposant de couleur blanche (250) et grise (200) à glissement réduit pour la pose de carreaux de céramique sur les sols et murs intérieurs.",
+                            "Une formule spéciale composée de ciment à haute résistance et de résines synthétiques pour améliorer l'adhérence aux surfaces à l'aide de granulats sélectionnés et d'autres additifs de performance pour améliorer l'application, la déformation et la prévention du glissement des carreaux."
+                        ],
+                        "characteristic": [
+                            "Facile à appliquer",
+                            "Utilisé pour les carreaux de céramique et d'argile",
+                            "Rendement élevé",
+                            "Technologie avancée des polymères",
+                            "Adhésif de performance à base de ciment"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GT400_002",
+                    "name": "GT-400 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-400.png",
+                    "datasheets": {
+                        "title": "GT-400 Series",
+                        "description": [
+                            "Un adhésif professionnel à composant unique à base de ciment, disponible en blanc (450) et gris (400), avec une glissance réduite et un temps ouvert prolongé pour la pose de carreaux de céramique sur les sols et murs intérieurs et extérieurs.",
+                            "Une formule spéciale composée de ciment à haute résistance et de résines synthétiques pour augmenter l'adhérence aux surfaces, utilisant des agrégats sélectionnés et d'autres additifs de performance pour améliorer l'application, la déformation et éviter le glissement des carreaux, avec un niveau d'élasticité ainsi qu'un temps ouvert prolongé."
+                        ],
+                        "characteristic": [
+                            "Facile à appliquer",
+                            "Force C2 - À base de ciment",
+                            "Utilisé pour les carreaux de grès, céramique",
+                            "Utilisé pour les pierres naturelles et artificielles non sensibles",
+                            "Utilisé pour les grands et petits carreaux",
+                            "Utilisé pour les planchers chauffants",
+                            "Haut rendement",
+                            "Technologie avancée des polymères",
+                            "Adhésif pour carreaux de céramique",
+                            "Adhésif de performance",
+                            "Résistant au glissement",
+                            "Temps ouvert prolongé"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_ORB_003",
+                    "name": "Orbistyro 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Orbistyro.png",
+                    "datasheets": {
+                        "title": "Orbistyro",
+                        "description": [
+                            "Un adhésif haute performance à base de ciment, chaux, calcaire, technologie avancée des polymères et renforcé par deux types de fibres pour l'adhésion des panneaux EPS pour le système ETICS."
+                        ],
+                        "characteristic": [
+                            "Facile à appliquer",
+                            "Haut rendement",
+                            "Renforcé avec des fibres PP",
+                            "Renforcé avec des fibres cellulosiques",
+                            "Technologie avancée des polymères",
+                            "Adhésif pour panneaux EPS",
+                            "Conçu pour les systèmes ETICS - Système d'Isolation Thermique par l'Extérieur avec Enduit",
+                            "Perméable à la vapeur"
+                        ]
+                    }
+                }
+            ],
+            "plasters": [
+                {
+                    "id": "BITEX_CREPBLANC_001",
+                    "name": "Crepi blanc 25kg - 1,5mm",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-crepi-blanc.png",
+                    "datasheets": {
+                        "title": "Crepi blanc",
+                        "description": [
+                            "Enduit structurel, prêt à l'emploi, à liant organique, pour les murs extérieurs. Résistant au changement climatique, perméable à la vapeur d'eau, soluble dans l'eau, odeur légère, facile à appliquer.",
+                            "Tous les substrats courants, propres, stables, secs et porteurs conviennent. Le support doit être contrôlé et, si nécessaire, durci avec BITEX Tiefgrund.",
+                            "BITEX Kratzputz/Crepi est un enduit structurel résistant aux intempéries et perméable à la vapeur d'eau. Très adapté aux revêtements décoratifs intérieurs et extérieurs, il est particulièrement facile à appliquer."
+                        ],
+                        "characteristic": [
+                            "Résistant au changement climatique",
+                            "Perméable à la vapeur d'eau",
+                            "Soluble dans l'eau",
+                            "Odeur légère",
+                            "Facile à appliquer"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GS12_002",
+                    "name": "GS-12 Flattening Mass 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Flattening.png",
+                    "datasheets": {
+                        "title": "GS-12 Flattening Mass",
+                        "description": [
+                            "Masse de nivellement haute performance à base de ciment, chaux, calcaire et technologie avancée des polymères, utilisée pour niveler les surfaces après le mortier de plâtrage ou d'autres substrats, préparant pour la couche finale de mastic mural ou d'enduit sur les surfaces intérieures."
+                        ],
+                        "characteristic": [
+                            "Facile à appliquer",
+                            "Haut rendement",
+                            "Surface respirante"
+                        ]
+                    }
+                }
+            ],
+            "insulations": [
+                {
+                    "id": "FIBREAN_B50_001",
+                    "name": "FIBRANGEO B-50",
+                    "brand": "Fibrean",
+                    "pathImage": "FIBRANGEO-B-50.png",
+                    "datasheets": {
+                        "title": "FIBRANGEO B-50",
+                        "description": [
+                            "Les plaques flexibles de laine minérale FIBRANgeo Β-050 sont un matériau isolant produit par fusion et filage des roches. Elles offrent une isolation thermique et acoustique exceptionnelle, ainsi qu'une excellente résistance aux températures élevées et au feu. Conforme à la norme européenne EN 13162 (MW), la laine minérale est un isolant naturel reconnu mondialement."
+                        ],
+                        "characteristic": [
+                            "Excellente isolation thermique",
+                            "Excellente absorption sonore et isolation acoustique",
+                            "Haute résistance au feu",
+                            "Faible résistance à la diffusion de la vapeur d'eau",
+                            "Hydrofuge et non hygroscopique",
+                            "Naturel, inorganique et inodore",
+                            "Léger et fonctionnel",
+                            "Résistant aux vibrations",
+                            "Empêche la croissance des micro-organismes, des insectes et des rongeurs",
+                            "Recyclable",
+                            "Écologique"
+                        ]
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEVERRE_002",
+                    "name": "Laine de verre",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-verre.jpeg",
+                    "datasheets": {
+                        "title": "Laine de verre",
+                        "description": [],
+                        "characteristic": []
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEROCH_003",
+                    "name": "Laine de roche",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-roche.jpeg",
+                    "datasheets": {
+                        "title": "Laine de roche",
+                        "description": [],
+                        "characteristic": []
+                    }
+                }
+            ],
+            "reinforcement": [
+                {
+                    "id": "GATEX_G160_001",
+                    "name": "G-160",
+                    "brand": "GATEX",
+                    "pathImage": "GATEX-G-160.jpg",
+                    "datasheets": {
+                        "title": "G-160",
+                        "description": [
+                            "La maille en fibre de verre de haute qualité Gatex G160 Standard est disponible en rouleaux de 50m de longueur et 1m de hauteur, avec un poids de 160g/m2.",
+                            "Gatex G160 Standard est conçu pour produire une couche de renforcement sous les enduits.",
+                            "La maille en fibre de verre G160 Standard est un élément essentiel du système d'isolation, qui, grâce à ses paramètres techniques, réduit la déformation thermique.",
+                            "Elle protège contre les dommages mécaniques auxquels le système d'isolation est soumis pendant l'utilisation.",
+                            "L'application de la maille en fibre de verre permet de créer une base durable sous une couche d'enduit.",
+                            "Elle empêche la formation de rayures et de fissures sur les couches de façade.",
+                            "G160 Standard offre des tissages de fibres forts et stables créant une maille.",
+                            "La taille régulière des ouvertures de la maille assure la stabilité dimensionnelle, une installation rapide et facile ainsi qu'une haute résistance mécanique."
+                        ],
+                        "characteristic": [
+                            "Douce et flexible",
+                            "Résistante aux alcalis",
+                            "Antidérapante",
+                            "Résistante aux déchirures",
+                            "Antifouling"
+                        ]
+                    }
+                }
+            ],
+            "paints": [
+                {
+                    "id": "BITEX_EGA_001",
+                    "name": "Ega Farbe 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Ega-Farbe.png",
+                    "datasheets": {
+                        "title": "Ega Farbe",
+                        "description": [
+                            "Peinture acrylique de 20 kg de couleur blanche Base C. Utilisée pour enduire les murs extérieurs. Offre une très bonne couverture. Résistante aux intempéries et à la lumière du soleil. La surface avant application doit être exempte de poussière et de graisse et s'assurer que l'ancienne peinture est bien adhérente au mur.",
+                            "Il est recommandé d'utiliser une sous-couche avant l'application sur des surfaces neuves. Couvre 4,5 m²/kg. Peut être diluée jusqu'à 10% avec de l'eau. Ne pas appliquer lorsque la température est inférieure à 5 °C. La peinture peut être teintée avec toutes les nuances de couleur du catalogue Bitex."
+                        ],
+                        "characteristic": [
+                            "Résistant au changement climatique",
+                            "Très bon pouvoir de dissimulation",
+                            "Perméable à la vapeur d'eau",
+                            "Propriétés anti-moisissures et anti-algues",
+                            "Résistant aux rayons UV",
+                            "Bonne protection contre le CO2 et le SO2"
+                        ]
+                    }
+                },
+                {
+                    "id": "BITEX_STARWEISS_002",
+                    "name": "Starweiss 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Starweiss.png",
+                    "datasheets": {
+                        "title": "Starweiss",
+                        "description": [
+                            "BITEX Starweiss est une peinture émulsion à base de résine synthétique pour l'intérieur. Elle offre une bonne couverture, une bonne maniabilité et un séchage rapide. La surface doit être sèche, ferme, propre et durable. Nettoyez ou brossez d'abord la surface. Peinture d'intérieur, facile à appliquer, idéale pour les environnements de travail et de vie sensibles."
+                        ],
+                        "characteristic": [
+                            "Très bon pouvoir de dissimulation",
+                            "Prêt pour l'application",
+                            "Très diffus",
+                            "Lavable"
+                        ]
+                    }
+                }
+            ],
+            "primers": [
+                {
+                    "id": "",
+                    "name": "Grundierfarbe 25kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Grundierfarbe.png",
+                    "datasheets": {
+                        "title": "Grundierfarbe",
+                        "description": [
+                            "BITEX GRUNDIERFARBE s'utilise sur les surfaces lisses du béton, du plâtre et des surfaces vieillies. Primaire universel, blanc, très grossier. Idéal pour les stucs - travail avec des enduits de dispersion, des enduits de silo et des enduits minéraux."
+                        ],
+                        "characteristic": [
+                            "Pour une utilisation intérieure et extérieure",
+                            "Rempli de quartz",
+                            "Dilué avec de l'eau",
+                            "Bon pouvoir de dissimulation",
+                            "Puissance de maintien élevée"
+                        ]
+                    }
+                }
+            ],
+            "finishing": [
+                {
+                    "id": "EUROISOL_APU_001",
+                    "name": "APU 2,4m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "APU.jpeg",
+                    "datasheets": {
+                        "title": "APU",
+                        "description": [
+                            "La bande de création en PVC avec tissu (également appelée profilé de cadre ou bande APU) sert à assurer une transition propre entre les surfaces polies et les cadres de fenêtres et de portes. Elle est utilisée pour la réalisation des joints de polissage extérieurs et intérieurs sur les profilés de cadre des fenêtres et des portes, y compris la bande d'étanchéité en mousse autocollante intégrée de 3 mm d'épaisseur, adaptée à la fuite et à la distance égale au profilé de cadre.",
+                            "Le tissu permet le chevauchement avec l'angle du tissu et évite les fissures dans le cadre. Elle garantit des droits fiables, sans fuite et une étanchéité parfaite des surfaces polies. La bande de création se colle sur le cadre des portes et des fenêtres en aluminium, en bois et en plastique. Le côté avec le tissu est poli dans le mur."
+                        ],
+                        "characteristic": [
+                            "Une finition parfaite à long terme",
+                            "Convient à un usage intérieur et extérieur",
+                            "Qualité professionnelle testée",
+                            "Connexions résistantes aux chocs",
+                            "Pas d'arrachage du nettoyage des fenêtres et des portes"
+                        ]
+                    }
+                },
+                {
+                    "id": "EUROISOL_PVC_002",
+                    "name": "PVC Cornière d’angle 5m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "PVC.jpeg",
+                    "datasheets": {
+                        "title": "PVC",
+                        "description": [
+                            "Coin en PVC avec tissu de protection thermique complet pour renforcer les bords. Il se caractérise par une résistance alcaline extrêmement élevée, une très bonne résistance à la déchirure et une finition de haute qualité.",
+                            "Domaine d'application: pour un armement fiable des angles et des bords extérieurs. Convient à l'isolation des façades."
+                        ],
+                        "characteristic": [
+                            "Tissu élastique permanent et imputrescible",
+                            "Haute résistance à la déchirure",
+                            "Résistant aux alcalins"
+                        ]
+                    }
+                }
+            ]
+        },
+        "en": {
+            "adhesives": [
+                {
+                    "id": "GEMIX_GT200_001",
+                    "name": "GT-200 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-200.png",
+                    "datasheets": {
+                        "title": "GT-200 Series",
+                        "description": [
+                            "Professional one-component adhesive cement, available in white (250) and grey (200), with reduced slip for laying ceramic tiles on interior floors and walls.",
+                            "A special formula composed of high-strength cement and synthetic resins to improve adhesion to surfaces, using selected aggregates and other performance-enhancing additives to improve application, deformation, and tile slip prevention."
+                        ],
+                        "characteristic": [
+                            "Easy to apply",
+                            "Used for ceramic and clay tiles",
+                            "High yield",
+                            "Advanced polymer technology",
+                            "Cement-based performance adhesive"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GT400_002",
+                    "name": "GT-400 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-400.png",
+                    "datasheets": {
+                        "title": "GT-400 Series",
+                        "description": [
+                            "A professional single-component adhesive based on cement, available in white (450) and grey (400), with reduced slip and extended open time for laying ceramic tiles on interior and exterior floors and walls.",
+                            "A special formula composed of high-strength cement and synthetic resins to increase adhesion to surfaces, using selected aggregates and other performance-enhancing additives to improve application, deformation, and prevent tile slip, with an increased level of elasticity and extended open time."
+                        ],
+                        "characteristic": [
+                            "Easy to apply",
+                            "C2 strength - Cement-based",
+                            "Used for porcelain and ceramic tiles",
+                            "Used for non-sensitive natural and artificial stones",
+                            "Used for large and small tiles",
+                            "Used for heated floors",
+                            "High yield",
+                            "Advanced polymer technology",
+                            "Ceramic tile adhesive",
+                            "Performance adhesive",
+                            "Slip-resistant",
+                            "Extended open time"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_ORB_003",
+                    "name": "Orbistyro 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Orbistyro.png",
+                    "datasheets": {
+                        "title": "Orbistyro",
+                        "description": [
+                            "A high-performance adhesive based on cement, lime, limestone, advanced polymer technology, and reinforced with two types of fibers for the adhesion of EPS panels for the ETICS system."
+                        ],
+                        "characteristic": [
+                            "Easy to apply",
+                            "High yield",
+                            "Reinforced with PP fibers",
+                            "Reinforced with cellulose fibers",
+                            "Advanced polymer technology",
+                            "Adhesive for EPS panels",
+                            "Designed for ETICS systems - External Thermal Insulation Composite System with render",
+                            "Vapor permeable"
+                        ]
+                    }
+                }
+            ],
+            "plasters": [
+                {
+                    "id": "BITEX_CREPBLANC_001",
+                    "name": "Crepi blanc 25kg - 1,5mm",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-crepi-blanc.png",
+                    "datasheets": {
+                        "title": "Crepi blanc",
+                        "description": [
+                            "Structural render, ready to use, with an organic binder, for exterior walls. Weather-resistant, vapor permeable, water-soluble, light odor, easy to apply.",
+                            "All common, clean, stable, dry, and load-bearing substrates are suitable. The substrate must be checked and, if necessary, reinforced with BITEX Tiefgrund.",
+                            "BITEX Kratzputz/Crepi is a weather-resistant and vapor-permeable structural render. Very suitable for decorative interior and exterior finishes, it is particularly easy to apply."
+                        ],
+                        "characteristic": [
+                            "Weather-resistant",
+                            "Vapor permeable",
+                            "Water-soluble",
+                            "Light odor",
+                            "Easy to apply"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GS12_002",
+                    "name": "GS-12 Flattening Mass 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Flattening.png",
+                    "datasheets": {
+                        "title": "GS-12 Flattening Mass",
+                        "description": [
+                            "A high-performance flattening mass based on cement, lime, limestone, and advanced polymer technology used to flatten surfaces after plastering mortar or other substrates, preparing for the final coat of wall putty or render on interior surfaces."
+                        ],
+                        "characteristic": [
+                            "Easy to apply",
+                            "High yield",
+                            "Breathable surface"
+                        ]
+                    }
+                }
+            ],
+            "insulations": [
+                {
+                    "id": "FIBREAN_B50_001",
+                    "name": "FIBRANGEO B-50",
+                    "brand": "Fibrean",
+                    "pathImage": "FIBRANGEO-B-50.png",
+                    "datasheets": {
+                        "title": "FIBRANGEO B-50",
+                        "description": [
+                            "The flexible mineral wool boards FIBRANgeo Β-050 are an insulating material produced by melting and spinning rocks. They offer exceptional thermal and acoustic insulation, as well as excellent resistance to high temperatures and fire. Compliant with the European standard EN 13162 (MW), mineral wool is a globally recognized natural insulator."
+                        ],
+                        "characteristic": [
+                            "Excellent thermal insulation",
+                            "Excellent sound absorption and acoustic insulation",
+                            "High fire resistance",
+                            "Low resistance to water vapor diffusion",
+                            "Water-repellent and non-hygroscopic",
+                            "Natural, inorganic and odorless",
+                            "Lightweight and functional",
+                            "Vibration resistant",
+                            "Prevents the growth of microorganisms, insects and rodents",
+                            "Recyclable",
+                            "Environmentally friendly"
+                        ]
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEVERRE_002",
+                    "name": "Laine de verre",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-verre.jpeg",
+                    "datasheets": {
+                        "title": "Laine de verre",
+                        "description": [],
+                        "characteristic": []
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEROCH_003",
+                    "name": "Laine de roche",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-roche.jpeg",
+                    "datasheets": {
+                        "title": "Laine de roche",
+                        "description": [],
+                        "characteristic": []
+                    }
+                }
+            ],
+            "reinforcement": [
+                {
+                    "id": "GATEX_G160_001",
+                    "name": "G-160",
+                    "brand": "GATEX",
+                    "pathImage": "GATEX-G-160.jpg",
+                    "datasheets": {
+                        "title": "G-160",
+                        "description": [
+                            "High-quality Gatex G160 Standard fiberglass mesh comes in rolls with a length of 50m and a height of 1m, weighing 160g/m2.",
+                            "Gatex G160 Standard is designed to produce a reinforcing layer for under-plasters.",
+                            "G160 Standard fiberglass mesh is an essential element of the insulation system, which with its technical parameters reduces thermal deformation.",
+                            "It protects against mechanical damage to which the insulation system is subject during use.",
+                            "Applying fiberglass mesh allows creating a durable base under a layer of plaster.",
+                            "It prevents the formation of scratches and cracks on the facade layers.",
+                            "G160 Standard offers strong and stable fiber weaves creating a mesh.",
+                            "The regular size of mesh openings ensures dimensional stability, quick and easy installation as well as high mechanical resistance."
+                        ],
+                        "characteristic": [
+                            "Soft and flexible",
+                            "Alkali-resistant",
+                            "Slip proof",
+                            "Tear-resistant",
+                            "Anti-snag"
+                        ]
+                    }
+                }
+            ],
+            "paints": [
+                {
+                    "id": "BITEX_EGA_001",
+                    "name": "Ega Farbe 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Ega-Farbe.png",
+                    "datasheets": {
+                        "title": "Ega Farbe",
+                        "description": [
+                            "Acrylic paint 20 kg white color Base C. Used to lubricate the external walls. Has a very good coverage. Resistant to weathering and sunlight. Surface before application should be free from dust and grease and make sure the old paint better be glued to the wall.",
+                            "Recommend that before applying for new surfaces to use liner. Covers 4.5m²/kg. Can be diluted to 10% with water. Do not apply when the temperature is below 5 °C. Paint can be painted with all shades of color from Bitex catalog."
+                        ],
+                        "characteristic": [
+                            "Weather-resistant",
+                            "Very good hiding power",
+                            "Vapor permeable",
+                            "Anti-mold and anti-algae properties",
+                            "UV-resistant",
+                            "Good protection against CO2 and SO2"
+                        ]
+                    }
+                },
+                {
+                    "id": "BITEX_STARWEISS_002",
+                    "name": "Starweiss 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Starweiss.png",
+                    "datasheets": {
+                        "title": "Starweiss",
+                        "description": [
+                            "BITEX Starweiss is a synthetic resin-based emulsion paint for interiors. It offers good coverage, good workability, and quick drying. The surface must be dry, firm, clean, and durable. Clean or brush the surface first. Interior paint, easy to apply, ideal for sensitive work and living environments."
+                        ],
+                        "characteristic": [
+                            "Very good hiding power",
+                            "Ready for application",
+                            "Highly diffuse",
+                            "Washable"
+                        ]
+                    }
+                }
+            ],
+            "primers": [
+                {
+                    "id": "",
+                    "name": "Grundierfarbe 25kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Grundierfarbe.png",
+                    "datasheets": {
+                        "title": "Grundierfarbe",
+                        "description": [
+                            "BITEX GRUNDIERFARBE is used on smooth surfaces of concrete, plaster, and aged surfaces. Universal primer, white, very coarse. Ideal for stucco - works with dispersion plasters, silo plasters, and mineral plasters."
+                        ],
+                        "characteristic": [
+                            "For interior and exterior use",
+                            "Filled with quartz",
+                            "Diluted with water",
+                            "Good hiding power",
+                            "High holding power"
+                        ]
+                    }
+                }
+            ],
+            "finishing": [
+                {
+                    "id": "EUROISOL_APU_001",
+                    "name": "APU 2,4m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "APU.jpeg",
+                    "datasheets": {
+                        "title": "APU",
+                        "description": [
+                            "The PVC creation strip with fabric (also called frame profile or APU strip) ensures a clean transition between polished surfaces and window and door frames. It is used for creating exterior and interior polishing joints on the frame profiles of windows and doors, including the integrated 3 mm thick self-adhesive foam sealing strip, suitable for leakage and equal distance to the frame profile.",
+                            "The fabric allows overlapping with the fabric corner and prevents cracks in the frame. It guarantees reliable, leak-free, and perfect sealing of polished surfaces. The creation strip is glued onto the frame of aluminum, wooden, and plastic doors and windows. The side with the fabric is polished into the wall."
+                        ],
+                        "characteristic": [
+                            "A long-term perfect finish",
+                            "Suitable for interior and exterior use",
+                            "Professionally tested quality",
+                            "Shock-resistant connections",
+                            "No tearing when cleaning windows and doors"
+                        ]
+                    }
+                },
+                {
+                    "id": "EUROISOL_PVC_002",
+                    "name": "PVC Cornière d’angle en fibre de verre 5m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "PVC.jpeg",
+                    "datasheets": {
+                        "title": "PVC",
+                        "description": [
+                            "PVC corner with full thermal protection fabric to reinforce edges. It is characterized by extremely high alkaline resistance, very good tear resistance, and high-quality finish.",
+                            "Application area: for reliable reinforcement of corners and exterior edges. Suitable for facade insulation."
+                        ],
+                        "characteristic": [
+                            "Permanently elastic and rot-resistant fabric",
+                            "High tear resistance",
+                            "Alkali resistant"
+                        ]
+                    }
+                }
+            ]
+        },
+        "nl": {
+            "adhesives": [
+                {
+                    "id": "GEMIX_GT200_001",
+                    "name": "GT-200 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-200.png",
+                    "datasheets": {
+                        "title": "GT-200 Series",
+                        "description": [
+                            "Cementlijm voor professioneel gebruik, verkrijgbaar in wit (250) en grijs (200), met verminderde glijding voor het leggen van keramische tegels op binnenvloeren en -muren.",
+                            "Een speciale formule bestaande uit hoogwaardig cement en synthetische harsen om de hechting op oppervlakken te verbeteren, met behulp van geselecteerde aggregaten en andere prestatieverhogende additieven om de toepassing, vervorming en tegelslip te verbeteren."
+                        ],
+                        "characteristic": [
+                            "Gemakkelijk aan te brengen",
+                            "Geschikt voor keramische en kleitegels",
+                            "Hoog rendement",
+                            "Geavanceerde polymeer technologie",
+                            "Cementgebaseerde prestatie-adhesief"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GT400_002",
+                    "name": "GT-400 Series 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-GT-400.png",
+                    "datasheets": {
+                        "title": "GT-400 Series",
+                        "description": [
+                            "Een professionele eencomponentenlijm op cementbasis, verkrijgbaar in wit (450) en grijs (400), met verminderde glijding en een verlengde open tijd voor het leggen van keramische tegels op binnen- en buitenvloeren en -muren.",
+                            "Een speciale formule bestaande uit hoogwaardig cement en synthetische harsen om de hechting aan oppervlakken te vergroten, met geselecteerde aggregaten en andere prestatieverhogende additieven om de toepassing, vervorming te verbeteren en tegelslip te voorkomen, met een verhoogd elasticiteitsniveau en een verlengde open tijd."
+                        ],
+                        "characteristic": [
+                            "Gemakkelijk aan te brengen",
+                            "Kracht C2 - Op cementbasis",
+                            "Geschikt voor porselein en keramische tegels",
+                            "Geschikt voor natuurlijke en kunstmatige niet-gevoelige stenen",
+                            "Geschikt voor grote en kleine tegels",
+                            "Geschikt voor vloerverwarming",
+                            "Hoog rendement",
+                            "Geavanceerde polymeer technologie",
+                            "Keramische tegellijm",
+                            "Prestatie-adhesief",
+                            "Slipvast",
+                            "Verlengde open tijd"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_ORB_003",
+                    "name": "Orbistyro 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Orbistyro.png",
+                    "datasheets": {
+                        "title": "Orbistyro",
+                        "description": [
+                            "Een hoogwaardig lijmmiddel op basis van cement, kalk, kalksteen, geavanceerde polymeer technologie en versterkt met twee soorten vezels voor de hechting van EPS-panelen voor het ETICS-systeem."
+                        ],
+                        "characteristic": [
+                            "Gemakkelijk aan te brengen",
+                            "Hoog rendement",
+                            "Versterkt met PP-vezels",
+                            "Versterkt met cellulosevezels",
+                            "Geavanceerde polymeer technologie",
+                            "Lijm voor EPS-panelen",
+                            "Ontworpen voor ETICS-systemen - Extern Thermisch Isolatiesysteem met pleisterwerk",
+                            "Dampdoorlatend"
+                        ]
+                    }
+                }
+            ],
+            "plasters": [
+                {
+                    "id": "BITEX_CREPBLANC_001",
+                    "name": "Crepi blanc 25kg - 1,5mm",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-crepi-blanc.png",
+                    "datasheets": {
+                        "title": "Crepi blanc",
+                        "description": [
+                            "Structuurpleister, gebruiksklaar, met organisch bindmiddel, voor buitenmuren. Weerbestendig, dampdoorlatend, in water oplosbaar, lichte geur, gemakkelijk aan te brengen.",
+                            "Alle gebruikelijke, schone, stabiele, droge en dragende ondergronden zijn geschikt. De ondergrond moet worden gecontroleerd en indien nodig worden versterkt met BITEX Tiefgrund.",
+                            "BITEX Kratzputz/Crepi is een structuurpleister die weerbestendig en dampdoorlatend is. Zeer geschikt voor decoratieve binnen- en buitenafwerkingen, het is bijzonder gemakkelijk aan te brengen."
+                        ],
+                        "characteristic": [
+                            "Weerbestendig",
+                            "Dampdoorlatend",
+                            "In water oplosbaar",
+                            "Lichte geur",
+                            "Gemakkelijk aan te brengen"
+                        ]
+                    }
+                },
+                {
+                    "id": "GEMIX_GS12_002",
+                    "name": "GS-12 Flattening Mass 25kg",
+                    "brand": "Gemix",
+                    "pathImage": "GEMIX-Flattening.png",
+                    "datasheets": {
+                        "title": "GS-12 Flattening Mass",
+                        "description": [
+                            "Een hoogpresterende egalisatiemassa op basis van cement, kalk, kalksteen en geavanceerde polymeer technologie, gebruikt om oppervlakken te egaliseren na het pleistermortel of andere ondergronden, ter voorbereiding van de eindlaag van muurplamuur of pleister op binnenoppervlakken."
+                        ],
+                        "characteristic": [
+                            "Gemakkelijk aan te brengen",
+                            "Hoog rendement",
+                            "Ademend oppervlak"
+                        ]
+                    }
+                }
+            ],
+            "insulations": [
+                {
+                    "id": "FIBREAN_B50_001",
+                    "name": "FIBRANGEO B-50",
+                    "brand": "Fibrean",
+                    "pathImage": "FIBRANGEO-B-50.png",
+                    "datasheets": {
+                        "title": "FIBRANGEO B-50",
+                        "description": [
+                            "De flexibele platen van FIBRANgeo Β-050 minerale wol zijn een isolatiemateriaal geproduceerd door het smelten en spinnen van rotsen. Ze bieden uitzonderlijke thermische en akoestische isolatie, evenals uitstekende weerstand tegen hoge temperaturen en vuur. Voldoet aan de Europese norm EN 13162 (MW), minerale wol is een wereldwijd erkend natuurlijk isolatiemateriaal."
+                        ],
+                        "characteristic": [
+                            "Uitstekende thermische isolatie",
+                            "Uitstekende geluidsabsorptie en akoestische isolatie",
+                            "Hoge vuurweerstand",
+                            "Lage weerstand tegen waterdampdiffusie",
+                            "Waterafstotend en niet hygroscopisch",
+                            "Natuurlijk, anorganisch en geurloos",
+                            "Licht en functioneel",
+                            "Trilbestendig",
+                            "Voorkomt de groei van micro-organismen, insecten en knaagdieren",
+                            "Recycleerbaar",
+                            "Milieuvriendelijk"
+                        ]
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEVERRE_002",
+                    "name": "Laine de verre",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-verre.jpeg",
+                    "datasheets": {
+                        "title": "Laine de verre",
+                        "description": [],
+                        "characteristic": []
+                    }
+                },
+                {
+                    "id": "KNAUF_LAINEROCH_003",
+                    "name": "Laine de roche",
+                    "brand": "Knaufinsulation",
+                    "pathImage": "Laine-de-roche.jpeg",
+                    "datasheets": {
+                        "title": "Laine de roche",
+                        "description": [],
+                        "characteristic": []
+                    }
+                }
+            ],
+            "reinforcement": [
+                {
+                    "id": "GATEX_G160_001",
+                    "name": "G-160",
+                    "brand": "GATEX",
+                    "pathImage": "GATEX-G-160.jpg",
+                    "datasheets": {
+                        "title": "G-160",
+                        "description": [
+                            "Het hoogwaardige Gatex G160 Standard glasvezelgaas wordt geleverd in rollen van 50m lang en 1m hoog, met een gewicht van 160g/m2.",
+                            "Gatex G160 Standard is ontworpen om een versterkende laag onder pleisterwerk te produceren.",
+                            "G160 Standard glasvezelgaas is een essentieel onderdeel van het isolatiesysteem, dat met zijn technische parameters thermische vervorming vermindert.",
+                            "Het beschermt tegen mechanische schade waaraan het isolatiesysteem tijdens gebruik is onderworpen.",
+                            "Het aanbrengen van glasvezelgaas zorgt voor een duurzame basis onder een pleisterlaag.",
+                            "Het voorkomt de vorming van krassen en scheuren in de gevel.",
+                            "G160 Standard biedt sterke en stabiele vezelweefsels die een gaas creëren.",
+                            "De regelmatige grootte van de gaasopeningen zorgt voor dimensionale stabiliteit, snelle en gemakkelijke installatie en een hoge mechanische weerstand."
+                        ],
+                        "characteristic": [
+                            "Zacht en flexibel",
+                            "Alkali-bestendig",
+                            "Slipvast",
+                            "Scheurvast",
+                            "Antisnag"
+                        ]
+                    }
+                }
+            ],
+            "paints": [
+                {
+                    "id": "BITEX_EGA_001",
+                    "name": "Ega Farbe 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Ega-Farbe.png",
+                    "datasheets": {
+                        "title": "Ega Farbe",
+                        "description": [
+                            "Acrylverf van 20 kg in de kleur wit Basis C. Gebruikt om de buitenmuren te smeren. Heeft een zeer goede dekking. Weer- en zonlichtbestendig. Het oppervlak moet voor het aanbrengen vrij zijn van stof en vet en zorg ervoor dat de oude verf beter aan de muur hecht.",
+                            "Aanbevolen wordt om voor nieuwe oppervlakken een primer te gebruiken. Dekt 4,5 m²/kg. Kan tot 10% met water worden verdund. Niet aanbrengen bij een temperatuur onder de 5 °C. De verf kan worden geschilderd met alle kleurentinten uit de Bitex-catalogus."
+                        ],
+                        "characteristic": [
+                            "Weerbestendig",
+                            "Zeer goede dekking",
+                            "Dampdoorlatend",
+                            "Schimmel- en algwerend",
+                            "UV-bestendig",
+                            "Goede bescherming tegen CO2 en SO2"
+                        ]
+                    }
+                },
+                {
+                    "id": "BITEX_STARWEISS_002",
+                    "name": "Starweiss 20kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Starweiss.png",
+                    "datasheets": {
+                        "title": "Starweiss",
+                        "description": [
+                            "BITEX Starweiss is een emulsieverf op basis van synthetische hars voor binnen. Het biedt een goede dekking, goede verwerkbaarheid en snelle droging. Het oppervlak moet droog, stevig, schoon en duurzaam zijn. Maak het oppervlak eerst schoon of borstel het af. Binnenverf, gemakkelijk aan te brengen, ideaal voor gevoelige werk- en leefomgevingen."
+                        ],
+                        "characteristic": [
+                            "Zeer goede dekking",
+                            "Klaar voor gebruik",
+                            "Zeer diffuus",
+                            "Afwasbaar"
+                        ]
+                    }
+                }
+            ],
+            "primers": [
+                {
+                    "id": "",
+                    "name": "Grundierfarbe 25kg",
+                    "brand": "BITEX",
+                    "pathImage": "BITEX-Grundierfarbe.png",
+                    "datasheets": {
+                        "title": "Grundierfarbe",
+                        "description": [
+                            "BITEX GRUNDIERFARBE wordt gebruikt op gladde oppervlakken van beton, pleisterwerk en verouderde oppervlakken. Universele primer, wit, zeer grof. Ideaal voor stucwerk - werken met dispersiepleisters, silo-pleisters en minerale pleisters."
+                        ],
+                        "characteristic": [
+                            "Voor binnen- en buitengebruik",
+                            "Gevuld met kwarts",
+                            "Verdunbaar met water",
+                            "Goede dekking",
+                            "Hoge hechtingskracht"
+                        ]
+                    }
+                }
+            ],
+            "finishing": [
+                {
+                    "id": "EUROISOL_APU_001",
+                    "name": "APU 2,4m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "APU.jpeg",
+                    "datasheets": {
+                        "title": "APU",
+                        "description": [
+                            "De creatieband van PVC met stof (ook wel kaderprofiel of APU-band genoemd) zorgt voor een schone overgang tussen gepolijste oppervlakken en raam- en deurkozijnen. Het wordt gebruikt voor het realiseren van buiten- en binnenpolijstnaden op de kaderprofielen van ramen en deuren, inclusief de geïntegreerde zelfklevende schuimtape van 3 mm dik, geschikt voor de lek- en gelijkmatige afstand tot het kaderprofiel.",
+                            "De stof maakt overlapping met de hoek van de stof mogelijk en voorkomt scheuren in het kader. Het garandeert betrouwbare, lekvrije en perfecte afdichting van gepolijste oppervlakken. De creatieband wordt geplakt op het kader van aluminium, houten en kunststof deuren en ramen. De zijde met de stof wordt in de muur gepolijst."
+                        ],
+                        "characteristic": [
+                            "Een perfecte afwerking op lange termijn",
+                            "Geschikt voor binnen- en buitengebruik",
+                            "Professionele geteste kwaliteit",
+                            "Schokbestendige verbindingen",
+                            "Geen scheuren bij het reinigen van ramen en deuren"
+                        ]
+                    }
+                },
+                {
+                    "id": "EUROISOL_PVC_002",
+                    "name": "PVC Cornière d’angle 5m",
+                    "brand": "EURO ISOL",
+                    "pathImage": "PVC.jpeg",
+                    "datasheets": {
+                        "title": "PVC",
+                        "description": [
+                            "PVC-hoek met volledige thermische beschermingsstof om de randen te versterken. Het kenmerkt zich door een extreem hoge alkalibestendigheid, een zeer goede scheurweerstand en een hoogwaardige afwerking.",
+                            "Toepassingsgebied: voor betrouwbare versterking van hoeken en buitenranden. Geschikt voor gevelisolatie."
+                        ],
+                        "characteristic": [
+                            "Permanent elastische en rotvrije stof",
+                            "Hoge scheurweerstand",
+                            "Alkalibestendig"
+                        ]
+                    }
+                }
+            ]
         }
     }
 }

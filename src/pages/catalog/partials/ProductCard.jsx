@@ -3,7 +3,7 @@ import { getImagePath } from '../../../utils/getImagePath.js';
 import { Link } from 'react-router-dom';
 
 function ProductCard({ product, categ }) {
-    const imagePath = getImagePath(product.image);
+    const imagePath = getImagePath(product.pathImage);
     return (
         <Link 
             to="/detail" 
@@ -16,7 +16,7 @@ function ProductCard({ product, categ }) {
 
             <div className="product-card-details">
                 <p className="product-card-brand">{product.brand}</p>
-                <p className="product-card-title">{product.title}</p>
+                <p className="product-card-title">{product.name}</p>
                 {/* <div className="product-card-info">
                     <span className="product-card-category">{product.category}</span>
                     <span className="product-card-price">{product.price} €</span>

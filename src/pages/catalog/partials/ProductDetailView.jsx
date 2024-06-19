@@ -8,7 +8,7 @@ function ProductDetailView({ data, lang }) {
     const location = useLocation();
     const { categ, itemId } = location.state || {};
     const item = data[lang][categ].filter(item => item.id === itemId)[0];
-    const imagePath = getImagePath(item["image"]);
+    const imagePath = getImagePath(item["pathImage"]);
 
     useTitle("Euro-Isol", lang);
 
@@ -16,7 +16,7 @@ function ProductDetailView({ data, lang }) {
         <main className="product-detail">
             <div className="product-detail-container">
 
-                <Breadcrumb lang={lang} >{item.title}</Breadcrumb>
+                <Breadcrumb lang={lang} >{item.name}</Breadcrumb>
 
                 <div className="product-detail__main-content">
 
@@ -30,18 +30,18 @@ function ProductDetailView({ data, lang }) {
 
                     <div className="product-detail__info-section">
 
-                        <h1 className="product-detail__title">{item.details.title}</h1>
+                        <h1 className="product-detail__title">{item.datasheets.title}</h1>
 
 
-                        {item.details.text.map((paragraph, index) => (
+                        {item.datasheets.description.map((paragraph, index) => (
                                 <p className="product-detail__description" key={index}>{paragraph}</p>
                             ))
                         }
 
 
-                        {item.details.characteristic && (
+                        {item.datasheets.characteristic && (
                                 <ul className="product-detail__features-list">
-                                    {item.details.characteristic.map((item, index) => (
+                                    {item.datasheets.characteristic.map((item, index) => (
 
                                         <li
                                             className="product-detail__feature-item"
@@ -55,7 +55,7 @@ function ProductDetailView({ data, lang }) {
                         }
 
                         <div className='product-detail__price'>
-                            <span>{item.price}</span>
+                            {/* <span>{item.price}</span> */}
                         </div>
                     </div>
                 </div>

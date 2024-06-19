@@ -5,9 +5,13 @@ import useCategorySelection from '../../hooks/useCategorySelection';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import useTitle from '../../hooks/useTitle';
 import useWindowSize from '../../hooks/useWindowSize';
+import products from "../../data/infoData.json"
 
 function PageCatalog({ data, lang }) {
     const lists = data[lang];
+    const tabs = products["products"][lang];
+    const allItemsTabCount = Object.values(tabs).reduce((total, tab) => total + tab.length, 0);
+
     const [currentSelection, handleCheckboxChange] = useCategorySelection();
     const allItemsCount = Object.values(lists).reduce((total, list) => total + list.length, 0);
     const { width } = useWindowSize();
@@ -30,7 +34,7 @@ function PageCatalog({ data, lang }) {
     };
 
     useTitle("Euro-Isol", lang);
-
+    console.log(lists);
     return (
         <main className='page-catalog'>
             <div className="catalog-container">
@@ -55,10 +59,22 @@ function PageCatalog({ data, lang }) {
                                     <label className="cbx" htmlFor="cbx-all"></label>
                                     <label className="lbl" htmlFor="cbx-all">{showText(lang)}</label>
                                 </div>
-                                <span>{allItemsCount}</span>
+                                <span>{allItemsTabCount}</span>
                             </li>
 
-                            {Object.entries(lists).map(([list, index]) => (
+                            {Object.entries(tabs).map(([tab, tabIndex]) => (
+                                <li key={tab}>
+                                    {<Checkbox
+                                        id={`cbx-${tab}`}
+                                        category={tab}
+                                        handleCheckboxChange={handleCheckboxChange}
+                                        isChecked={currentSelection === tab}
+                                        lang={lang}
+                                    />}
+                                    <span>{tabIndex.length}</span>
+                                </li>
+                            ))}
+                            {/* {Object.entries(lists).map(([list, index]) => (
                                 <li key={list}>
                                     {<Checkbox
                                         id={`cbx-${list}`}
@@ -69,7 +85,7 @@ function PageCatalog({ data, lang }) {
                                     />}
                                     <span>{index.length}</span>
                                 </li>
-                            ))}
+                            ))} */}
                         </ul>
                     </aside>
 
@@ -79,12 +95,12 @@ function PageCatalog({ data, lang }) {
 
                         <div>
                             {currentSelection === 'all'
-                                ? Object.entries(lists).flatMap(([key, list]) => (
-                                    list.map((product) => (
+                                ? Object.entries(tabs).flatMap(([key, tab]) => (
+                                    tab.map((product) => (
                                         <ProductCard product={product} key={product.id} categ={key} />
                                     ))
                                 ))
-                                : lists[currentSelection].map((product) => (
+                                : tabs[currentSelection].map((product) => (
                                     <ProductCard product={product} key={product.id} categ={currentSelection} />
                                 ))
                             }

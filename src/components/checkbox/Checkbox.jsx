@@ -2,28 +2,49 @@ import React from 'react';
 
 const getName = (lang, children) => {
     if (lang === "fr") {
-        return children;
+        if (children === "Adhesives") {
+            return "Adhésifs";
+        }
+        if (children === "plasters") {
+            return "Enduits";
+        }
+        if (children === "insulations") {
+            return "Isolants";
+        }
+        if (children === "reinforcement") {
+            return "Renforts";
+        }
+        if (children === "paints") {
+            return "Peintures";
+        }
+        if (children === "primers") {
+            return "Primaires";
+        }
+        if (children === "finishing") {
+            return "Profils de finition";
+        }
     }
     if (lang === "nl") {
-        if (children === "crepis") {
-            return "pleisterwerk";
+        if (children === "Adhesives") {
+            return "Lijmen";
         }
-        if (children === "colles") {
-            return "lijmen";
+        if (children === "plasters") {
+            return "Pleisters";
         }
-        if (children === "isolations") {
-            return "isolaties";
+        if (children === "insulations") {
+            return "Isolatie";
         }
-    }
-    if (lang === "en") {
-        if (children === "crepis") {
-            return "plasters";
+        if (children === "reinforcement") {
+            return "Versterkingsmaterialen";
         }
-        if (children === "colles") {
-            return "adhesives";
+        if (children === "paints") {
+            return "Verf";
         }
-        if (children === "isolations") {
-            return "insulations";
+        if (children === "primers") {
+            return "Primers";
+        }
+        if (children === "finishing") {
+            return "Afwerkingsprofielen";
         }
     }
     return children;
